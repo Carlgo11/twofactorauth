@@ -164,6 +164,12 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      
+    - name: My Study Life
+      url: https://www.mystudylife.com/
+      img: mystudylife.png
+      twitter: mystudylife
+      tfa: No
 
     - name: Nest
       url: https://nest.com
