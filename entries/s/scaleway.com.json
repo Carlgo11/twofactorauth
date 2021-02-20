@@ -1,0 +1,12 @@
+{
+  "Scaleway": {
+    "domain": "scaleway.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://blog.scaleway.com/2017/introducing-two-factor-authentication-on-scaleway/",
+    "keywords": [
+      "cloud"
+    ]
+  }
+}

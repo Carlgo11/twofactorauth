@@ -1,0 +1,13 @@
+{
+  "RevenueCat": {
+    "domain": "revenuecat.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://docs.revenuecat.com/docs/security",
+    "keywords": [
+      "developer",
+      "commerce"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Hurricane Electric": {
+    "domain": "he.net",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "domains"
+    ]
+  }
+}

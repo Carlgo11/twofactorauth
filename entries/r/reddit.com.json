@@ -1,0 +1,12 @@
+{
+  "Reddit": {
+    "domain": "reddit.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.reddithelp.com/hc/en-us/articles/360043470031",
+    "keywords": [
+      "social"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Stash": {
+    "domain": "stash.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email"
+    ],
+    "documentation": "https://ask.stash.com/ask/what-is-two-factor-authentication/",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

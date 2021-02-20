@@ -1,0 +1,12 @@
+{
+  "Onshape": {
+    "domain": "onshape.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://cad.onshape.com/help/Content/twofactorauthentication.htm",
+    "keywords": [
+      "other"
+    ]
+  }
+}

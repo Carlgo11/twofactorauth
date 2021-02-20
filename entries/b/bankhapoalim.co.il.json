@@ -1,0 +1,15 @@
+{
+  "Bank Hapoalim": {
+    "domain": "bankhapoalim.co.il",
+    "contact": {
+      "twitter": "PoaliMarkeTweet",
+      "language": "he"
+    },
+    "regions": [
+      "il"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

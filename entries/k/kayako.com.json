@@ -1,0 +1,12 @@
+{
+  "Kayako": {
+    "domain": "kayako.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.kayako.com/hc/en-us/articles/360006376420",
+    "keywords": [
+      "other"
+    ]
+  }
+}

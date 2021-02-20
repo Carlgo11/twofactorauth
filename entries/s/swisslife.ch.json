@@ -1,0 +1,16 @@
+{
+  "Swiss Life": {
+    "domain": "swisslife.ch",
+    "tfa": [
+      "sms"
+    ],
+    "keywords": [
+      "finance",
+      "insurance",
+      "health"
+    ],
+    "regions": [
+      "ch"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "NordVPN Teams": {
+    "domain": "nordvpnteams.com",
+    "img": "nordvpn.svg",
+    "tfa": [
+      "totp",
+      "sms"
+    ],
+    "keywords": [
+      "vpn"
+    ]
+  }
+}

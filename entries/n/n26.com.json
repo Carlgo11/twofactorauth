@@ -1,0 +1,16 @@
+{
+  "N26": {
+    "domain": "n26.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://support.n26.com/en-gb/getting-started/psd2/how-to-log-in-with-two-factor-authentication",
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

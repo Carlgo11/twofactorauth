@@ -1,0 +1,12 @@
+{
+  "SourceForge": {
+    "domain": "sourceforge.net",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://sourceforge.net/blog/introducing-multifactor-authentication-on-sourceforge/",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Name.com": {
+    "domain": "name.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.name.com/support/categories/200296798",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

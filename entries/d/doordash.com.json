@@ -1,0 +1,15 @@
+{
+  "DoorDash": {
+    "domain": "doordash.com",
+    "contact": {
+      "twitter": "DoorDash"
+    },
+    "keywords": [
+      "food"
+    ],
+    "regions": [
+      "ca",
+      "us"
+    ]
+  }
+}

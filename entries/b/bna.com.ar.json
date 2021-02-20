@@ -1,0 +1,16 @@
+{
+  "Banco Nación": {
+    "domain": "bna.com.ar",
+    "contact": {
+      "email": "asistenciaproteccionusuarios@bna.com.ar",
+      "facebook": "banconacion",
+      "language": "es"
+    },
+    "regions": [
+      "ar"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

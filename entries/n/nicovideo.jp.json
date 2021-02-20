@@ -1,0 +1,12 @@
+{
+  "Niconico": {
+    "domain": "nicovideo.jp",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://qa.nicovideo.jp/faq/show/4500",
+    "keywords": [
+      "entertainment"
+    ]
+  }
+}

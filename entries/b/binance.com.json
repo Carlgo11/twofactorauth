@@ -1,0 +1,14 @@
+{
+  "Binance": {
+    "domain": "binance.com",
+    "tfa": [
+      "totp",
+      "u2f",
+      "sms"
+    ],
+    "documentation": "https://www.binance.com/en/support/faq/c-1#/1/11",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

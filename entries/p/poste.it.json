@@ -1,0 +1,18 @@
+{
+  "PosteItaliane": {
+    "domain": "poste.it",
+    "contact": {
+      "email": "servizio.clienti@posteitaliane.it",
+      "facebook": "PosteItaliane",
+      "twitter": "PosteNews",
+      "language": "it"
+    },
+    "regions": [
+      "it"
+    ],
+    "keywords": [
+      "banking",
+      "postal"
+    ]
+  }
+}

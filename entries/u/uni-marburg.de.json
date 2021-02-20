@@ -1,0 +1,16 @@
+{
+  "Philipps-Universität Marburg": {
+    "domain": "uni-marburg.de",
+    "tfa": [
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.uni-marburg.de/de/hrz/dienste/2fa",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

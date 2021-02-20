@@ -1,0 +1,12 @@
+{
+  "Avast": {
+    "domain": "avast.com",
+    "contact": {
+      "facebook": "avast",
+      "twitter": "avast_antivirus"
+    },
+    "keywords": [
+      "security"
+    ]
+  }
+}

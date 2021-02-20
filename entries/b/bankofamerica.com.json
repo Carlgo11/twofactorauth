@@ -1,0 +1,16 @@
+{
+  "Bank of America": {
+    "domain": "bankofamerica.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.bankofamerica.com/security-center/online-banking/",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

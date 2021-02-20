@@ -1,0 +1,16 @@
+{
+  "Saturn": {
+    "domain": "saturn.de",
+    "contact": {
+      "facebook": "SaturnDE",
+      "twitter": "SaturnDE",
+      "language": "de"
+    },
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Zomato": {
+    "domain": "zomato.com",
+    "contact": {
+      "facebook": "zomato",
+      "twitter": "Zomato"
+    },
+    "keywords": [
+      "food"
+    ]
+  }
+}

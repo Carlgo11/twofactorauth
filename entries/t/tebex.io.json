@@ -1,0 +1,13 @@
+{
+  "Tebex": {
+    "domain": "tebex.io",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://help.tebex.io/en/articles/2319372",
+    "keywords": [
+      "payments"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "GLS-ONE": {
+    "domain": "gls-one.de",
+    "contact": {
+      "email": "mail@gls-one.de",
+      "facebook": "GLSGermany",
+      "twitter": "GLS_Germany",
+      "language": "de"
+    },
+    "keywords": [
+      "postal"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

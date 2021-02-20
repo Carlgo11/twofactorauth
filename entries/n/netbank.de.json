@@ -1,0 +1,16 @@
+{
+  "netbank": {
+    "domain": "netbank.de",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://www.netbank.de/privatkunden/service/Starke-Kundenauthentifizierung/",
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

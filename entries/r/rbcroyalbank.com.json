@@ -1,0 +1,16 @@
+{
+  "RBC Royal Bank": {
+    "domain": "rbcroyalbank.com",
+    "img": "rbc.svg",
+    "contact": {
+      "facebook": "rbc"
+    },
+    "regions": [
+      "ca",
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "1&1 IONOS": {
+    "domain": "ionos.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.ionos.com/help/index.php?id=3269",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

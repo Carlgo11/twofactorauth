@@ -1,0 +1,13 @@
+{
+  "Kinsta": {
+    "domain": "kinsta.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://kinsta.com/blog/wordpress-two-factor-authentication/",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

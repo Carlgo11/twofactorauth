@@ -1,0 +1,12 @@
+{
+  "Hilton Honors": {
+    "domain": "hilton.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "keywords": [
+      "hotels"
+    ]
+  }
+}

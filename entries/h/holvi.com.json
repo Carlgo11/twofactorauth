@@ -1,0 +1,23 @@
+{
+  "Holvi": {
+    "domain": "holvi.com",
+    "contact": {
+      "facebook": "HolviCom",
+      "twitter": "Holvi"
+    },
+    "regions": [
+      "at",
+      "be",
+      "fi",
+      "fr",
+      "de",
+      "nl",
+      "ir",
+      "it",
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

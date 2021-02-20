@@ -1,0 +1,13 @@
+{
+  "H&R Block": {
+    "domain": "hrblock.com",
+    "tfa": [
+      "email",
+      "totp",
+      "sms"
+    ],
+    "keywords": [
+      "finance"
+    ]
+  }
+}

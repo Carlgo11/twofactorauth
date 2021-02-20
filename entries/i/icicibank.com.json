@@ -1,0 +1,15 @@
+{
+  "ICICI": {
+    "domain": "icicibank.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://www.icicibank.com/online-safe-banking/otp.page",
+    "regions": [
+      "in"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

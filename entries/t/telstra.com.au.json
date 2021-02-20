@@ -1,0 +1,15 @@
+{
+  "Telstra": {
+    "domain": "telstra.com.au",
+    "contact": {
+      "facebook": "Telstra24x7",
+      "twitter": "Telstra"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "au"
+    ]
+  }
+}

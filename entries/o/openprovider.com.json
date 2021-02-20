@@ -1,0 +1,12 @@
+{
+  "Openprovider": {
+    "domain": "openprovider.com",
+    "img": "openprovider.com.png",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "domains"
+    ]
+  }
+}

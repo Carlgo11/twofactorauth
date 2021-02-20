@@ -1,0 +1,16 @@
+{
+  "Monzo": {
+    "domain": "monzo.com",
+    "contact": {
+      "facebook": "monzobank",
+      "twitter": "monzo"
+    },
+    "regions": [
+      "gb",
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

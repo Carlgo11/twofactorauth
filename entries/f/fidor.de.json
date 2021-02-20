@@ -1,0 +1,16 @@
+{
+  "Fidor": {
+    "domain": "fidor.de",
+    "tfa": [
+      "custom-software",
+      "sms"
+    ],
+    "documentation": "https://www.fidor.de/faq/faq-sicherheit-fin-pin-tan",
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

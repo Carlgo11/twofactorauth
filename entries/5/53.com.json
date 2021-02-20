@@ -1,0 +1,14 @@
+{
+  "Fifth Third Bank": {
+    "domain": "53.com",
+    "tfa": [
+      "sms"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

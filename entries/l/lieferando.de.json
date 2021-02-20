@@ -1,0 +1,16 @@
+{
+  "Lieferando": {
+    "domain": "lieferando.de",
+    "contact": {
+      "email": "info@lieferando.de",
+      "facebook": "lieferando",
+      "twitter": "lieferando"
+    },
+    "keywords": [
+      "food"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Pluralsight": {
+    "domain": "pluralsight.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.pluralsight.com/help/multifactor-authentication",
+    "keywords": [
+      "education"
+    ]
+  }
+}

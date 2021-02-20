@@ -1,0 +1,17 @@
+{
+  "Sonic": {
+    "domain": "sonic.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://help.sonic.com/hc/en-us/articles/236079387",
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

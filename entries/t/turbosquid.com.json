@@ -1,0 +1,13 @@
+{
+  "TurboSquid": {
+    "domain": "turbosquid.com",
+    "tfa": [
+      "email",
+      "sms"
+    ],
+    "notes": "2FA is only available with a verified email address",
+    "keywords": [
+      "other"
+    ]
+  }
+}

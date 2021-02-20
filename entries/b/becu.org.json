@@ -1,0 +1,14 @@
+{
+  "Boeing Employee Credit Union": {
+    "domain": "becu.org",
+    "tfa": [
+      "sms"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

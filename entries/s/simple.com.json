@@ -1,0 +1,15 @@
+{
+  "Simple": {
+    "domain": "simple.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://www.simple.com/help/articles/account-maintenance/security",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

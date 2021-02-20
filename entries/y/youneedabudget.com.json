@@ -1,0 +1,12 @@
+{
+  "You Need A Budget (YNAB)": {
+    "domain": "youneedabudget.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://docs.youneedabudget.com/article/1364--",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

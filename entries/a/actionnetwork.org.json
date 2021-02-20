@@ -1,0 +1,12 @@
+{
+  "Action Network": {
+    "domain": "actionnetwork.org",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.actionnetwork.org/hc/en-us/articles/217206826",
+    "keywords": [
+      "communication"
+    ]
+  }
+}

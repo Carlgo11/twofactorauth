@@ -1,0 +1,14 @@
+{
+  "Fidelity Investments": {
+    "domain": "fidelity.com",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software"
+    ],
+    "documentation": "https://www.fidelity.com/security/extra-security-login",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

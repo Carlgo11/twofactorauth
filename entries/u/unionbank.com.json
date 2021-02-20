@@ -1,0 +1,15 @@
+{
+  "Union Bank": {
+    "domain": "unionbank.com",
+    "contact": {
+      "facebook": "UnionBank",
+      "twitter": "UnionBank"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

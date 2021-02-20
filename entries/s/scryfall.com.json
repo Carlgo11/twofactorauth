@@ -1,0 +1,12 @@
+{
+  "Scryfall": {
+    "domain": "scryfall.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://scryfall.com/docs/privacy#scryfall-accounts",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

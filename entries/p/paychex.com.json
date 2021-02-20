@@ -1,0 +1,12 @@
+{
+  "Paychex": {
+    "domain": "paychex.com",
+    "tfa": [
+      "sms",
+      "call"
+    ],
+    "keywords": [
+      "finance"
+    ]
+  }
+}

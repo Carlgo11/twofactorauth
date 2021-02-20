@@ -1,0 +1,13 @@
+{
+  "Capital Group / American Funds": {
+    "domain": "capitalgroup.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.capitalgroup.com/individual/news/one-time-passcode-login-security.html",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

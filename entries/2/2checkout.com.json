@@ -1,0 +1,14 @@
+{
+  "2checkout": {
+    "domain": "2checkout.com",
+    "tfa": [
+      "totp",
+      "email"
+    ],
+    "documentation": "https://knowledgecenter.2checkout.com/Onboarding/Activate-and-set-up-your-2Checkout-account/Two-factor-authentication",
+    "keywords": [
+      "commerce",
+      "payments"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Codeship": {
+    "domain": "codeship.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://documentation.codeship.com/general/about/2fa/",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "AngelList": {
+    "domain": "angel.co",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://angel.co/projects/106166",
+    "keywords": [
+      "other"
+    ]
+  }
+}

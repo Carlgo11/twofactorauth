@@ -1,0 +1,18 @@
+{
+  "Costco": {
+    "domain": "costco.com",
+    "contact": {
+      "facebook": "Costco"
+    },
+    "regions": [
+      "ca",
+      "us",
+      "gb",
+      "mx",
+      "es"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

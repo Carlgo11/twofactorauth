@@ -1,0 +1,13 @@
+{
+  "Sync": {
+    "domain": "sync.com",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://www.sync.com/help/how-do-i-setup-two-factor-authentication/",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

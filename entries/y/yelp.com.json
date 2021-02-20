@@ -1,0 +1,12 @@
+{
+  "Yelp": {
+    "domain": "yelp.com",
+    "contact": {
+      "facebook": "yelp",
+      "twitter": "yelpsupport"
+    },
+    "keywords": [
+      "social"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Meistertask": {
+    "domain": "meistertask.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.mindmeister.com/hc/en-us/articles/218901367",
+    "keywords": [
+      "task"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Glassdoor": {
+    "domain": "glassdoor.com",
+    "contact": {
+      "email": "feedback@glassdoor.com",
+      "facebook": "Glassdoor",
+      "twitter": "Glassdoor"
+    },
+    "keywords": [
+      "social"
+    ]
+  }
+}

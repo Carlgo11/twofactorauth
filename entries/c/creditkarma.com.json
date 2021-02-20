@@ -1,0 +1,14 @@
+{
+  "Credit Karma (US)": {
+    "domain": "creditkarma.com",
+    "img": "creditkarma.svg",
+    "tfa": [
+      "sms",
+      "call"
+    ],
+    "documentation": "https://help.creditkarma.com/hc/en-us/articles/360001472366",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

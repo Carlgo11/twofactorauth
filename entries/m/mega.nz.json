@@ -1,0 +1,12 @@
+{
+  "Mega": {
+    "domain": "mega.nz",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://mega.nz/help/client/webclient/security-and-privacy/5bb5436cf1b70966038b456b",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Aha!": {
+    "domain": "aha.io",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://support.aha.io/hc/en-us/articles/360031319232-Account-settings#SSO",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

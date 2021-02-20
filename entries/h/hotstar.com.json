@@ -1,0 +1,17 @@
+{
+  "Hotstar": {
+    "domain": "hotstar.com",
+    "contact": {
+      "facebook": "hotstar",
+      "twitter": "hotstar_helps"
+    },
+    "keywords": [
+      "entertainment"
+    ],
+    "regions": [
+      "in",
+      "ca",
+      "us"
+    ]
+  }
+}

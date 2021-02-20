@@ -1,0 +1,16 @@
+{
+  "Hetzner Online": {
+    "domain": "hetzner.de",
+    "tfa": [
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://wiki.hetzner.de/index.php/KonsoleH:Zwei-Faktor-Authentifizierung/en",
+    "keywords": [
+      "hosting"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

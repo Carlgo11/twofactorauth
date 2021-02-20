@@ -1,0 +1,11 @@
+{
+  "Call of Duty": {
+    "domain": "callofduty.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

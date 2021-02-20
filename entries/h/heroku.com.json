@@ -1,0 +1,12 @@
+{
+  "Heroku": {
+    "domain": "heroku.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://devcenter.heroku.com/articles/two-factor-authentication",
+    "keywords": [
+      "cloud"
+    ]
+  }
+}

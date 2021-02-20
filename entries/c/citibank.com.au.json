@@ -1,0 +1,16 @@
+{
+  "Citibank Australia": {
+    "domain": "citibank.com.au",
+    "img": "citibank.svg",
+    "contact": {
+      "facebook": "citiaustralia",
+      "twitter": "CitiAustralia"
+    },
+    "regions": [
+      "au"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

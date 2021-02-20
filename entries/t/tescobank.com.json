@@ -1,0 +1,15 @@
+{
+  "Tesco Bank": {
+    "domain": "tescobank.com",
+    "contact": {
+      "facebook": "tesco.bank",
+      "twitter": "tescobankhelp"
+    },
+    "regions": [
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

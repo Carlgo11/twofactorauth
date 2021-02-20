@@ -1,0 +1,12 @@
+{
+  "Buildkite": {
+    "domain": "buildkite.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://buildkite.com/changelog/31-two-factor-authentication",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

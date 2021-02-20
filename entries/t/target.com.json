@@ -1,0 +1,14 @@
+{
+  "Target": {
+    "domain": "target.com",
+    "contact": {
+      "twitter": "Target"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

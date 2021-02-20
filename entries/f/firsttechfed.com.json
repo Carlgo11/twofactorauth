@@ -1,0 +1,16 @@
+{
+  "First Tech Federal Credit Union": {
+    "domain": "firsttechfed.com",
+    "tfa": [
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.firsttechfed.com/Tools-and-Resources/Tools-and-Resources/What-You-Can-Do-To-Protect-Your-Privacy#3",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

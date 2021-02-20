@@ -1,0 +1,18 @@
+{
+  "Duke University": {
+    "domain": "duke.edu",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://idms-mfa.oit.duke.edu/mfa/help",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "OkCupid": {
+    "domain": "okcupid.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://help.okcupid.com/article/202--",
+    "keywords": [
+      "social"
+    ]
+  }
+}

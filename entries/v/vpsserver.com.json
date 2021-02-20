@@ -1,0 +1,12 @@
+{
+  "VPS Server": {
+    "domain": "vpsserver.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://github.com/2factorauth/twofactorauth/pull/2311#issuecomment-273424695",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

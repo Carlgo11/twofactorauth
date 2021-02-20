@@ -1,0 +1,16 @@
+{
+  "State Farm": {
+    "domain": "statefarm.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.statefarm.com/customer-care/privacy-security-center/identity-verification",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

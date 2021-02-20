@@ -1,0 +1,13 @@
+{
+  "Samsung": {
+    "domain": "samsung.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://account.samsung.com/membership/guide/2step/",
+    "keywords": [
+      "retail"
+    ]
+  }
+}

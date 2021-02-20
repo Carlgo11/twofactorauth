@@ -1,0 +1,12 @@
+{
+  "Esri": {
+    "domain": "esri.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://doc.arcgis.com/en/arcgis-online/reference/multifactor.htm",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

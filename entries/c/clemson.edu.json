@@ -1,0 +1,18 @@
+{
+  "Clemson University": {
+    "domain": "clemson.edu",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://2fa.app.clemson.edu/",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

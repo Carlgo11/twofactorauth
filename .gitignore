@@ -1,44 +1,5 @@
-# IDE files
-.idea/
-nbproject/
-
-# Jekyll/Ruby files
-.bundle/
-.config/
-.jekyll-metadata
-.sass-cache
+*~
+api/v*
 Gemfile.lock
-_site/
 vendor/
-
-# NPM files
-node_modules/
-package-lock.json
-package.json
-
-# OS files
-*.DS_Store
-*.swp
-Thumbs.db
-ehthumbs.db
-tmp/
-
-# Project files
-*.webp
-
-# API JSON files
-api/*
-
-# Generated regional sites
-ar/
-au/
-de/
-gb/
-nl/
-nz/
-se/
-us/
-ca/
-fr/
-it/
-ch/
+.bundle/

@@ -1,0 +1,15 @@
+{
+  "Greyhound": {
+    "domain": "greyhound.com",
+    "contact": {
+      "facebook": "GreyhoundBus",
+      "twitter": "GHoundBusHelp"
+    },
+    "keywords": [
+      "transport"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

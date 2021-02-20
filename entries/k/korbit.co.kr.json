@@ -1,0 +1,15 @@
+{
+  "Korbit": {
+    "domain": "korbit.co.kr",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.korbit.co.kr/customer/en/portal/articles/1717692",
+    "keywords": [
+      "cryptocurrencies"
+    ],
+    "regions": [
+      "kr"
+    ]
+  }
+}

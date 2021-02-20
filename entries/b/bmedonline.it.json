@@ -1,0 +1,16 @@
+{
+  "Banca Mediolanum": {
+    "domain": "bmedonline.it",
+    "contact": {
+      "facebook": "BancaMediolanum",
+      "twitter": "BancaMediolanum",
+      "language": "it"
+    },
+    "regions": [
+      "it"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

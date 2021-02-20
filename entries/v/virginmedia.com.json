@@ -1,0 +1,16 @@
+{
+  "Virgin Media (UK)": {
+    "domain": "virginmedia.com",
+    "img": "virginmedia.svg",
+    "contact": {
+      "facebook": "virginmedia",
+      "twitter": "virginmedia"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "gb"
+    ]
+  }
+}

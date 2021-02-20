@@ -1,0 +1,12 @@
+{
+  "PythonAnywhere": {
+    "domain": "pythonanywhere.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.pythonanywhere.com/pages/SecuringYourAccount/",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

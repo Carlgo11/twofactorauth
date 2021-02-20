@@ -1,0 +1,13 @@
+{
+  "Fiverr": {
+    "domain": "fiverr.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://sellers.fiverr.com/en/article/two-factor-authentication",
+    "keywords": [
+      "jobs"
+    ]
+  }
+}

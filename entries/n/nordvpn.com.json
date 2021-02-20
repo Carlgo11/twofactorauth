@@ -1,0 +1,14 @@
+{
+  "NordVPN": {
+    "domain": "nordvpn.com",
+    "img": "nordvpn.svg",
+    "contact": {
+      "email": "support@nordvpn.com",
+      "facebook": "NordVPN",
+      "twitter": "NordVPN"
+    },
+    "keywords": [
+      "vpn"
+    ]
+  }
+}

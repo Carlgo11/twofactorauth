@@ -1,0 +1,16 @@
+{
+  "Thrift Savings Plan": {
+    "domain": "tsp.gov",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.tsp.gov/account-basics/protect-your-tsp-account/",
+    "keywords": [
+      "government"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

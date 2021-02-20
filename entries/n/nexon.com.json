@@ -1,0 +1,12 @@
+{
+  "Nexon": {
+    "domain": "nexon.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.nexon.net/hc/en-us/articles/360025920992",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

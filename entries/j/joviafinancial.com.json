@@ -1,0 +1,15 @@
+{
+  "Jovia Financial": {
+    "domain": "joviafinancial.com",
+    "tfa": [
+      "sms",
+      "call"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

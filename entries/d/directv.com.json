@@ -1,0 +1,15 @@
+{
+  "DIRECTV": {
+    "domain": "directv.com",
+    "contact": {
+      "facebook": "directv",
+      "twitter": "DIRECTVService"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

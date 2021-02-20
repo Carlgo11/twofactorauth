@@ -1,0 +1,12 @@
+{
+  "Wasabi": {
+    "domain": "wasabi.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCONSOLE_ACCESS_for_the_Root_User.htm",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

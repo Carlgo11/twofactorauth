@@ -1,0 +1,16 @@
+{
+  "SailPoint": {
+    "domain": "sailpoint.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "notes": "Applies to IdentityIQ and IdentityNow.",
+    "keywords": [
+      "identity"
+    ]
+  }
+}

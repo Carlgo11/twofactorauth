@@ -1,0 +1,12 @@
+{
+  "Geico": {
+    "domain": "geico.com",
+    "contact": {
+      "facebook": "geico",
+      "twitter": "GEICO_Service"
+    },
+    "keywords": [
+      "finance"
+    ]
+  }
+}

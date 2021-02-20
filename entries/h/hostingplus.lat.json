@@ -1,0 +1,21 @@
+{
+  "HostingPlus LAT": {
+    "domain": "hostingplus.lat",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://clientes.hostingplus.lat/knowledgebase/33/",
+    "regions": [
+      "us",
+      "ar",
+      "cl",
+      "co",
+      "mx",
+      "pe",
+      "es"
+    ],
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

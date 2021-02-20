@@ -1,0 +1,12 @@
+{
+  "Crypto": {
+    "domain": "crypto.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.crypto.com/en/articles/3511439",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

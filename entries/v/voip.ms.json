@@ -1,0 +1,12 @@
+{
+  "VoIP.ms": {
+    "domain": "voip.ms",
+    "tfa": [
+      "email"
+    ],
+    "documentation": "https://wiki.voip.ms/article/Two-step_Verification",
+    "keywords": [
+      "utilities"
+    ]
+  }
+}

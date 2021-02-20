@@ -1,0 +1,13 @@
+{
+  "Leaseweb": {
+    "domain": "leaseweb.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://kb.leaseweb.com/users-and-accounts/managing-your-profile/setup-two-factor-authentication",
+    "keywords": [
+      "cloud"
+    ]
+  }
+}

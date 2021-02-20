@@ -1,0 +1,12 @@
+{
+  "Mapbox": {
+    "domain": "mapbox.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://docs.mapbox.com/accounts/overview/settings/#security",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

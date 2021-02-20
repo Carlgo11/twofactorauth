@@ -1,0 +1,12 @@
+{
+  "Fastly": {
+    "domain": "fastly.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://docs.fastly.com/guides/account-management-and-security/enabling-and-disabling-two-factor-authentication",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

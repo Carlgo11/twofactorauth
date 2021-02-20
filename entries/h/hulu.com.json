@@ -1,0 +1,15 @@
+{
+  "Hulu": {
+    "domain": "hulu.com",
+    "contact": {
+      "facebook": "hulu",
+      "twitter": "hulu_support"
+    },
+    "keywords": [
+      "entertainment"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

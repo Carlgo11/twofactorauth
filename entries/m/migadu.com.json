@@ -1,0 +1,11 @@
+{
+  "Migadu": {
+    "domain": "migadu.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "email"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "UK Postbox": {
+    "domain": "ukpostbox.com",
+    "tfa": [
+      "email"
+    ],
+    "keywords": [
+      "postal"
+    ]
+  }
+}

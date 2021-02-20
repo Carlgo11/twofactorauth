@@ -1,0 +1,13 @@
+{
+  "Trion Worlds": {
+    "domain": "trionworlds.com",
+    "tfa": [
+      "email",
+      "custom-software"
+    ],
+    "documentation": "https://support.trionworlds.com/hc/en-us/articles/204183357",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

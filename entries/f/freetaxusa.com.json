@@ -1,0 +1,15 @@
+{
+  "FreeTaxUSA": {
+    "domain": "freetaxusa.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email",
+      "totp"
+    ],
+    "documentation": "https://www.freetaxusa.com/faqsearch?search_keyword=authentication",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Betvictor": {
+    "domain": "betvictor.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "keywords": [
+      "betting"
+    ]
+  }
+}

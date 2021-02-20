@@ -1,0 +1,14 @@
+{
+  "Etsy": {
+    "domain": "etsy.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://help.etsy.com/hc/en-us/articles/115015569567",
+    "keywords": [
+      "retail"
+    ]
+  }
+}

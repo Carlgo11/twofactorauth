@@ -1,0 +1,17 @@
+{
+  "NASA Federal Credit Union": {
+    "domain": "nasafcu.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email"
+    ],
+    "documentation": "https://www.nasafcu.com/img/newebranch/ebranch_new.html",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

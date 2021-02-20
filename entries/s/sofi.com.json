@@ -1,0 +1,15 @@
+{
+  "SoFi": {
+    "domain": "sofi.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://www.sofi.com/blog/introducing-two-step-verification-sofi-next-level-account-protection/",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

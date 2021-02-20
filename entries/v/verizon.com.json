@@ -1,0 +1,16 @@
+{
+  "Verizon": {
+    "domain": "verizon.com",
+    "img": "verizon.svg",
+    "contact": {
+      "facebook": "verizon",
+      "twitter": "VerizonSupport"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

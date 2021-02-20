@@ -1,0 +1,13 @@
+{
+  "OKEx": {
+    "domain": "okex.com",
+    "tfa": [
+      "totp",
+      "sms"
+    ],
+    "documentation": "https://www.okex.com/support/hc/en-us/articles/360000350271",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Orange": {
+    "domain": "orange.fr",
+    "contact": {
+      "facebook": "Orange.France",
+      "twitter": "Orange_France",
+      "language": "fr"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "fr"
+    ]
+  }
+}

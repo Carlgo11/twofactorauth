@@ -1,0 +1,16 @@
+{
+  "Ally Bank": {
+    "domain": "ally.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.ally.com/messages/sms/",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

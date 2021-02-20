@@ -1,0 +1,16 @@
+{
+  "La Banque Postale": {
+    "domain": "labanquepostale.fr",
+    "contact": {
+      "facebook": "labanquepostale",
+      "twitter": "LaBanquePostale",
+      "language": "fr"
+    },
+    "regions": [
+      "fr"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

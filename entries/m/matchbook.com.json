@@ -1,0 +1,12 @@
+{
+  "Matchbook": {
+    "domain": "matchbook.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.matchbook.com/page/getting_started/setup2fa/",
+    "keywords": [
+      "betting"
+    ]
+  }
+}

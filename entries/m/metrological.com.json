@@ -1,0 +1,12 @@
+{
+  "Metrological": {
+    "domain": "metrological.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://github.com/2factorauth/twofactorauth/pull/2273#issuecomment-271876292",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

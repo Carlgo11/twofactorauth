@@ -1,0 +1,15 @@
+{
+  "Migros": {
+    "domain": "migros.ch",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://login.migros.ch/help/security/2fa?hl=en",
+    "keywords": [
+      "retail"
+    ],
+    "regions": [
+      "ch"
+    ]
+  }
+}

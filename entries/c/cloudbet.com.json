@@ -1,0 +1,12 @@
+{
+  "Cloudbet": {
+    "domain": "cloudbet.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://cloudbet.zendesk.com/hc/en-us/articles/223120088/",
+    "keywords": [
+      "betting"
+    ]
+  }
+}

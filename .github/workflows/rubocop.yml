@@ -1,0 +1,26 @@
+name: Rubocop tests
+on:
+  push:
+    paths:
+      - scripts/*
+      - tests/*
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: |
+            vendor/cache
+          key: ${{ runner.os }}-rubocop-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-rubocop-
+      - uses: actions/setup-ruby@v1
+      - name: Bundle install
+        run: |
+          bundle config path vendor/cache
+          bundle config set cache_all true
+          bundle install --jobs 4 --retry 3
+          [ -d "vendor/cache" ] || { bundle package; }
+      - name: Run Rubocop tests
+        run:  bundle exec rubocop

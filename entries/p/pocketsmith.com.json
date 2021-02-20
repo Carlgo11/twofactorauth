@@ -1,0 +1,12 @@
+{
+  "Pocketsmith": {
+    "domain": "pocketsmith.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://learn.pocketsmith.com/article/167--",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

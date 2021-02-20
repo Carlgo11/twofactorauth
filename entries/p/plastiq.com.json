@@ -1,0 +1,15 @@
+{
+  "Plastiq": {
+    "domain": "plastiq.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://help.plastiq.com/hc/en-us/articles/360006794893",
+    "keywords": [
+      "payments"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Freelancer": {
+    "domain": "freelancer.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.freelancer.com/support/general/2-step-verification",
+    "keywords": [
+      "jobs"
+    ]
+  }
+}

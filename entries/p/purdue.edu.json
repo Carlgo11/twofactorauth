@@ -1,0 +1,16 @@
+{
+  "Purdue University": {
+    "domain": "purdue.edu",
+    "tfa": [
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.purdue.edu/securepurdue/identity-access/boilerkey/",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

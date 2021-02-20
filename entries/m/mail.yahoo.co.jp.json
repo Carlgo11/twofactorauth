@@ -1,0 +1,13 @@
+{
+  "Yahoo Japan Mail": {
+    "domain": "mail.yahoo.co.jp",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://id.yahoo.co.jp/security/otp.html",
+    "keywords": [
+      "email"
+    ]
+  }
+}

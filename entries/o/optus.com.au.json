@@ -1,0 +1,15 @@
+{
+  "Optus": {
+    "domain": "optus.com.au",
+    "contact": {
+      "facebook": "optus",
+      "twitter": "Optus"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "au"
+    ]
+  }
+}

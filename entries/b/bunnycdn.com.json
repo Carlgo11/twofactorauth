@@ -1,0 +1,11 @@
+{
+  "BunnyCDN": {
+    "domain": "bunnycdn.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

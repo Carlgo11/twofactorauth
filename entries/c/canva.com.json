@@ -1,0 +1,13 @@
+{
+  "Canva": {
+    "domain": "canva.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://support.canva.com/account-basics/security/keep-your-account-secure/",
+    "notes": "2FA only available for Australian customers.",
+    "keywords": [
+      "other"
+    ]
+  }
+}

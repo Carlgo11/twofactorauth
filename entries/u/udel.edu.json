@@ -1,0 +1,18 @@
+{
+  "University of Delaware": {
+    "domain": "udel.edu",
+    "tfa": [
+      "totp",
+      "call",
+      "sms",
+      "custom-hardware"
+    ],
+    "documentation": "https://www1.udel.edu/it/help/2fa/main.html",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

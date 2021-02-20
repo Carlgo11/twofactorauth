@@ -1,0 +1,12 @@
+{
+  "DMARC Analyzer": {
+    "domain": "dmarcanalyzer.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.dmarcanalyzer.com/set-two-factor-authentication-additional-security/",
+    "keywords": [
+      "security"
+    ]
+  }
+}

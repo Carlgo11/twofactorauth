@@ -1,0 +1,16 @@
+{
+  "BMO Harris Bank": {
+    "domain": "bmoharris.com",
+    "img": "bmo.svg",
+    "contact": {
+      "facebook": "BMOHarrisBank",
+      "twitter": "BMOHarrisBank"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

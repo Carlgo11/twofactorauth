@@ -1,0 +1,29 @@
+name: JSON tests
+on: [ push, pull_request ]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: |
+            /tmp/iso-*.txt
+            vendor/cache
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gems-
+      - uses: actions/setup-ruby@v1
+      - name: Bundle install
+        run: |
+          bundle config path vendor/cache
+          bundle config set cache_all true
+          bundle install --jobs 4 --retry 3
+          [ -d "vendor/cache" ] || { bundle package; }
+      - name: Validate JSON structure
+        run:  bundle exec ruby ./tests/validate-json.rb
+      - name: Validate Region codes
+        run:  bundle exec ruby ./tests/region-codes.rb
+      - name: Validate Language codes
+        run: bundle exec ruby ./tests/language-codes.rb
+      - name: Validate Entry tags
+        run: bundle exec ruby ./tests/entry-tags.rb

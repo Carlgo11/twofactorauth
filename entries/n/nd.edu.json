@@ -1,0 +1,18 @@
+{
+  "University of Notre Dame": {
+    "domain": "nd.edu",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://oit.nd.edu/services/accounts/okta-account-services-and-two-step-login/",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

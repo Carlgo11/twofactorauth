@@ -1,0 +1,14 @@
+{
+  "Pennsylvania Department of Revenue": {
+    "domain": "mypath.pa.gov",
+    "tfa": [
+      "totp",
+      "email",
+      "sms"
+    ],
+    "documentation": "https://revenue-pa.custhelp.com/app/answers/detail/a_id/3939",
+    "keywords": [
+      "government"
+    ]
+  }
+}

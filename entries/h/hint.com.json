@@ -1,0 +1,15 @@
+{
+  "Hint Health": {
+    "domain": "hint.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.hint.com/support/solutions/articles/61000283118",
+    "keywords": [
+      "health"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

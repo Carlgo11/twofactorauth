@@ -1,0 +1,13 @@
+{
+  "Betfair": {
+    "domain": "betfair.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://support.betfair.com/app/answers/detail/a_id/126",
+    "keywords": [
+      "betting"
+    ]
+  }
+}

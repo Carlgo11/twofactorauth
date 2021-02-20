@@ -1,0 +1,12 @@
+{
+  "Hexonet": {
+    "domain": "hexonet.net",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.hexonet.net/assets/pdf/2FA.pdf",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

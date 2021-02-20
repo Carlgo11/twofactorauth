@@ -1,0 +1,15 @@
+{
+  "Visa Argentina": {
+    "domain": "visa.com.ar",
+    "contact": {
+      "twitter": "VisaArgentina",
+      "language": "es"
+    },
+    "keywords": [
+      "payments"
+    ],
+    "regions": [
+      "ar"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "MyDomain": {
+    "domain": "mydomain.com",
+    "img": "mydomain.com.png",
+    "contact": {
+      "facebook": "mydomain",
+      "twitter": "MyDomaindotcom"
+    },
+    "keywords": [
+      "domains"
+    ]
+  }
+}

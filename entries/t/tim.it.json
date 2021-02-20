@@ -1,0 +1,17 @@
+{
+  "TIM": {
+    "domain": "tim.it",
+    "img": "tim.svg",
+    "contact": {
+      "facebook": "TimOfficialPage",
+      "twitter": "TIM_Official",
+      "language": "it"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "it"
+    ]
+  }
+}

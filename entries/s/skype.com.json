@@ -1,0 +1,17 @@
+{
+  "Skype": {
+    "domain": "skype.com",
+    "tfa": [
+      "sms",
+      "email",
+      "custom-software",
+      "totp",
+      "u2f"
+    ],
+    "documentation": "https://support.microsoft.com/en-us/help/12408/",
+    "notes": "Must be associated with a Microsoft Account.",
+    "keywords": [
+      "communication"
+    ]
+  }
+}

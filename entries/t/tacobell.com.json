@@ -1,0 +1,12 @@
+{
+  "Taco Bell": {
+    "domain": "tacobell.com",
+    "contact": {
+      "facebook": "tacobell",
+      "twitter": "tacobell"
+    },
+    "keywords": [
+      "food"
+    ]
+  }
+}

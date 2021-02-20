@@ -1,0 +1,12 @@
+{
+  "Datto": {
+    "domain": "datto.com",
+    "tfa": [
+      "custom-software"
+    ],
+    "documentation": "https://help.datto.com/s/article/KB360032979352",
+    "keywords": [
+      "other"
+    ]
+  }
+}

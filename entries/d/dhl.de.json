@@ -1,0 +1,12 @@
+{
+  "DHL Deutschland": {
+    "domain": "dhl.de",
+    "tfa": [
+      "email"
+    ],
+    "documentation": "https://www.dhl.de/de/toolbar/footer/datenschutz.html#kundenkontoundempfaengerservices",
+    "keywords": [
+      "postal"
+    ]
+  }
+}

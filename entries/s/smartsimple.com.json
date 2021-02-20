@@ -1,0 +1,13 @@
+{
+  "SmartSimple": {
+    "domain": "smartsimple.com",
+    "tfa": [
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://wiki.smartsimple.com/wiki/Two-Factor_Authentication",
+    "keywords": [
+      "other"
+    ]
+  }
+}

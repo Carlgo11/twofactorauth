@@ -1,0 +1,15 @@
+{
+  "PenFed": {
+    "domain": "penfed.org",
+    "contact": {
+      "facebook": "PenFed",
+      "twitter": "PenFed"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

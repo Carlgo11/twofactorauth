@@ -1,0 +1,12 @@
+{
+  "ClickUp": {
+    "domain": "clickup.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://docs.clickup.com/general/two-factor-authentication",
+    "keywords": [
+      "task"
+    ]
+  }
+}

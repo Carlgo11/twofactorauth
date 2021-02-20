@@ -1,0 +1,15 @@
+{
+  "AT&T": {
+    "domain": "att.com",
+    "contact": {
+      "facebook": "ATT",
+      "twitter": "ATTCares"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

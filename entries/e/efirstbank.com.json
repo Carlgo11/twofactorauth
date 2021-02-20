@@ -1,0 +1,16 @@
+{
+  "FirstBank": {
+    "domain": "efirstbank.com",
+    "contact": {
+      "email": "banking@efirstbank.com",
+      "facebook": "efirstbank",
+      "twitter": "efirstbank"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

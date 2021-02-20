@@ -1,0 +1,12 @@
+{
+  "Fanatical": {
+    "domain": "fanatical.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.fanatical.com/hc/en-us/articles/360002761397",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

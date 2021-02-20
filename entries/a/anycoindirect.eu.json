@@ -1,0 +1,12 @@
+{
+  "AnycoinDirect": {
+    "domain": "anycoindirect.eu",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.anycoindirect.eu/hc/en-gb/articles/115001423191",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

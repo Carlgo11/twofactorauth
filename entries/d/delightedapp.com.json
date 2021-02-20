@@ -1,0 +1,11 @@
+{
+  "Delighted": {
+    "domain": "delightedapp.com",
+    "tfa": [
+      "sms"
+    ],
+    "keywords": [
+      "other"
+    ]
+  }
+}

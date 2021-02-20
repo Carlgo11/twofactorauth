@@ -1,0 +1,16 @@
+{
+  "AirBank": {
+    "domain": "airbank.cz",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://www.airbank.cz/co-vas-nejvic-zajima/jake-bezpecnostni-prvky-u-nas-mame",
+    "regions": [
+      "cz"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

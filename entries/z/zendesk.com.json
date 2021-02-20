@@ -1,0 +1,13 @@
+{
+  "Zendesk": {
+    "domain": "zendesk.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://support.zendesk.com/hc/en-us/articles/206373587",
+    "keywords": [
+      "other"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Tumblr": {
+    "domain": "tumblr.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://www.tumblr.com/docs/en/two_factor_auth",
+    "keywords": [
+      "social"
+    ]
+  }
+}

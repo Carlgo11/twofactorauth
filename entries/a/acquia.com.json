@@ -1,0 +1,13 @@
+{
+  "Acquia": {
+    "domain": "acquia.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://docs.acquia.com/acquia-cloud/access/signin/",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

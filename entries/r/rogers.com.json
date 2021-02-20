@@ -1,0 +1,15 @@
+{
+  "Rogers": {
+    "domain": "rogers.com",
+    "contact": {
+      "facebook": "Rogers",
+      "twitter": "RogersHelps"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "ca"
+    ]
+  }
+}

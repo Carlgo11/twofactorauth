@@ -1,0 +1,11 @@
+{
+  "AirVPN": {
+    "domain": "airvpn.org",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "vpn"
+    ]
+  }
+}

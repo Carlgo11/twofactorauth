@@ -1,0 +1,15 @@
+{
+  "Rakuten": {
+    "domain": "rakuten.com",
+    "contact": {
+      "twitter": "AskRakutenUS"
+    },
+    "regions": [
+      "us",
+      "jp"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Plaid": {
+    "domain": "plaid.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://support.plaid.com/hc/en-us/articles/360008278414",
+    "keywords": [
+      "developer",
+      "finance"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Thalia": {
+    "domain": "thalia.de",
+    "contact": {
+      "email": "info@thalia.de",
+      "facebook": "thalia.de",
+      "language": "de"
+    },
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

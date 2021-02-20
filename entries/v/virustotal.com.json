@@ -1,0 +1,11 @@
+{
+  "VirusTotal": {
+    "domain": "virustotal.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "security"
+    ]
+  }
+}

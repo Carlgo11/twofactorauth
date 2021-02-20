@@ -1,0 +1,13 @@
+{
+  "QNAP": {
+    "domain": "qnap.com",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://www.qnap.com/en-us/how-to/tutorial/article/how-to-enhance-account-security-using-2-step-verification",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

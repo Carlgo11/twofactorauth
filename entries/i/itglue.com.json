@@ -1,0 +1,12 @@
+{
+  "IT Glue": {
+    "domain": "itglue.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.itglue.com/hc/en-us/articles/360004933757",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

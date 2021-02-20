@@ -1,0 +1,16 @@
+{
+  "Nationwide Building Society": {
+    "domain": "nationwide.co.uk",
+    "tfa": [
+      "sms",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.nationwide.co.uk/support/security-centre/internet-banking-security/new-log-in-experience",
+    "regions": [
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "1blu": {
+    "domain": "1blu.de",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://faq.1blu.de/content/613/999/de/sie-moechten-die-2_faktor_authentisierung-fuer-den-1blu_kundenlogin-nutzen.html",
+    "keywords": [
+      "hosting",
+      "domains",
+      "backup"
+    ]
+  }
+}

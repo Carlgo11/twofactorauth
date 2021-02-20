@@ -1,0 +1,16 @@
+{
+  "Deutsche Apotheker- und Ärztebank": {
+    "domain": "apobank.de",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://www.apobank.de/footer/tan-app.html",
+    "keywords": [
+      "banking"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

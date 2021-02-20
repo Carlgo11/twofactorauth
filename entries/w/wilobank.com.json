@@ -1,0 +1,16 @@
+{
+  "Wilobank": {
+    "domain": "wilobank.com",
+    "contact": {
+      "facebook": "wilobank",
+      "twitter": "wilobank",
+      "language": "es"
+    },
+    "regions": [
+      "ar"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

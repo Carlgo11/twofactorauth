@@ -1,0 +1,12 @@
+{
+  "KnowBe4": {
+    "domain": "knowbe4.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.knowbe4.com/hc/en-us/articles/225681448",
+    "keywords": [
+      "education"
+    ]
+  }
+}

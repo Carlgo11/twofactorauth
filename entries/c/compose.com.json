@@ -1,0 +1,13 @@
+{
+  "Compose": {
+    "domain": "compose.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://help.compose.com/docs/two-factor-authentication",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

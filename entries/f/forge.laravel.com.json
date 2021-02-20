@@ -1,0 +1,11 @@
+{
+  "Laravel Forge": {
+    "domain": "forge.laravel.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "cloud"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "US Bank": {
+    "domain": "usbank.com",
+    "tfa": [
+      "sms"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

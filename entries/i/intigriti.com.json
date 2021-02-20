@@ -1,0 +1,12 @@
+{
+  "intigriti": {
+    "domain": "intigriti.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://kb.intigriti.com/en/articles/2642631",
+    "keywords": [
+      "security"
+    ]
+  }
+}

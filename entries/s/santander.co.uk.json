@@ -1,0 +1,16 @@
+{
+  "Santander UK": {
+    "domain": "santander.co.uk",
+    "img": "santander.svg",
+    "contact": {
+      "facebook": "santanderuk",
+      "twitter": "santanderukhelp"
+    },
+    "regions": [
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

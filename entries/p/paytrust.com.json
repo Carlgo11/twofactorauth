@@ -1,0 +1,12 @@
+{
+  "Paytrust": {
+    "domain": "paytrust.com",
+    "img": "paytrust.com.png",
+    "tfa": [
+      "call"
+    ],
+    "keywords": [
+      "finance"
+    ]
+  }
+}

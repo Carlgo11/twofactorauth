@@ -1,0 +1,12 @@
+{
+  "American Airlines": {
+    "domain": "aa.com",
+    "contact": {
+      "facebook": "AmericanAirlines",
+      "twitter": "AmericanAir"
+    },
+    "keywords": [
+      "transport"
+    ]
+  }
+}

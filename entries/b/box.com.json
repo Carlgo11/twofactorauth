@@ -1,0 +1,12 @@
+{
+  "Box": {
+    "domain": "box.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://community.box.com/t5/How-to-Guides-for-Account/Manage-Account-Settings/ta-p/20022#authentication",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "MongoDB Cloud Manager": {
+    "domain": "cloud.mongodb.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://docs.cloudmanager.mongodb.com/core/two-factor-authentication/",
+    "notes": "Phone 2FA for US / Canada only.",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "WageWorks": {
+    "domain": "wageworks.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "notes": "Employer/plan sponsor may opt to not offer 2FA.",
+    "keywords": [
+      "other"
+    ]
+  }
+}

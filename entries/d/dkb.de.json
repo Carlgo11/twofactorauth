@@ -1,0 +1,13 @@
+{
+  "Deutsche Kreditbank (DKB)": {
+    "domain": "dkb.de",
+    "tfa": [
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.dkb.de/info/neue-anmeldung",
+    "keywords": [
+      "banking"
+    ]
+  }
+}

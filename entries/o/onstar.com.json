@@ -1,0 +1,12 @@
+{
+  "OnStar": {
+    "domain": "onstar.com",
+    "contact": {
+      "facebook": "onstar",
+      "twitter": "OnStar"
+    },
+    "keywords": [
+      "iot"
+    ]
+  }
+}

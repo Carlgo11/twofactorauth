@@ -1,0 +1,15 @@
+{
+  "Twitter": {
+    "domain": "twitter.com",
+    "tfa": [
+      "sms",
+      "totp",
+      "u2f"
+    ],
+    "documentation": "https://support.twitter.com/articles/20170388",
+    "notes": "Mobile apps do not support Hardware 2FA. Hardware 2FA requires enabling back-up method. Cannot add multiple security keys. SMS only available on select providers.",
+    "keywords": [
+      "social"
+    ]
+  }
+}

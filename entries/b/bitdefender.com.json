@@ -1,0 +1,13 @@
+{
+  "Bitdefender": {
+    "domain": "bitdefender.com",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://www.bitdefender.com/consumer/support/answer/1581/",
+    "keywords": [
+      "security"
+    ]
+  }
+}

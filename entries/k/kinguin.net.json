@@ -1,0 +1,11 @@
+{
+  "Kinguin": {
+    "domain": "kinguin.net",
+    "tfa": [
+      "email"
+    ],
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

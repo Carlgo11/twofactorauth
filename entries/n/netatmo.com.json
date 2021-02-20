@@ -1,0 +1,12 @@
+{
+  "Netatmo": {
+    "domain": "netatmo.com",
+    "contact": {
+      "facebook": "Netatmo",
+      "twitter": "NetatmoSupport"
+    },
+    "keywords": [
+      "iot"
+    ]
+  }
+}

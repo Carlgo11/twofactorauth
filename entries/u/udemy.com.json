@@ -1,0 +1,13 @@
+{
+  "Udemy": {
+    "domain": "udemy.com",
+    "contact": {
+      "email": "support@udemy.com",
+      "facebook": "udemy",
+      "twitter": "udemy"
+    },
+    "keywords": [
+      "education"
+    ]
+  }
+}

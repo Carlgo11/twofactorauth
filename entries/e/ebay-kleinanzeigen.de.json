@@ -1,0 +1,18 @@
+{
+  "ebay Kleinanzeigen": {
+    "domain": "ebay-kleinanzeigen.de",
+    "img": "ebay.svg",
+    "contact": {
+      "email": "service@ebay-kleinanzeigen.de",
+      "facebook": "eBayKleinanzeigen",
+      "twitter": "eBay_KA",
+      "language": "de"
+    },
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "TransferWise": {
+    "domain": "transferwise.com",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software"
+    ],
+    "documentation": "https://transferwise.com/help/12/managing-your-profile/2932125",
+    "notes": "SMS-capable phone is required.",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

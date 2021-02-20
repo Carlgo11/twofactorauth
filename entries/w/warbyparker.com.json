@@ -1,0 +1,15 @@
+{
+  "Warby Parker": {
+    "domain": "warbyparker.com",
+    "contact": {
+      "twitter": "WarbyParkerHelp"
+    },
+    "regions": [
+      "ca",
+      "us"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

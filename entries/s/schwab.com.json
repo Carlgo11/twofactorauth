@@ -1,0 +1,13 @@
+{
+  "Charles Schwab": {
+    "domain": "schwab.com",
+    "tfa": [
+      "sms",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "keywords": [
+      "investing"
+    ]
+  }
+}

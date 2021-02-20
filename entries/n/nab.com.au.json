@@ -1,0 +1,15 @@
+{
+  "National Australia Bank": {
+    "domain": "nab.com.au",
+    "contact": {
+      "facebook": "NAB",
+      "twitter": "NAB"
+    },
+    "regions": [
+      "au"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

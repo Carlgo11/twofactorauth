@@ -1,0 +1,13 @@
+{
+  "Backupify": {
+    "domain": "backupify.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.backupify.com/blog/backupify-2-factor-authentication",
+    "notes": "A mobile phone is required for 2FA set-up.",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

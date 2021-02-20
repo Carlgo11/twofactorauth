@@ -1,0 +1,13 @@
+{
+  "Moniker": {
+    "domain": "moniker.com",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://faq.moniker.com/login-into-moniker",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Ancestry": {
+    "domain": "ancestry.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://support.ancestry.com/s/article/MFA",
+    "notes": "2FA is currently only available for customers with a U.S. based phone number.",
+    "keywords": [
+      "other"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Raygun": {
+    "domain": "raygun.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://raygun.com/docs/workflow/two-factor-authentication",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

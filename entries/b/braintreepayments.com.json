@@ -1,0 +1,14 @@
+{
+  "Braintree": {
+    "domain": "braintreepayments.com",
+    "tfa": [
+      "sms",
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://articles.braintreepayments.com/reference/security/two-factor-authentication",
+    "keywords": [
+      "payments"
+    ]
+  }
+}

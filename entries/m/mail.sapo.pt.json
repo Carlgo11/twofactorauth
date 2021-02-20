@@ -1,0 +1,14 @@
+{
+  "SAPO Mail": {
+    "domain": "mail.sapo.pt",
+    "contact": {
+      "email": "conteudos@mail.sapo.pt",
+      "facebook": "sapo",
+      "twitter": "sapo",
+      "language": "pt"
+    },
+    "keywords": [
+      "email"
+    ]
+  }
+}

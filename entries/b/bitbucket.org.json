@@ -1,0 +1,13 @@
+{
+  "Bitbucket": {
+    "domain": "bitbucket.org",
+    "tfa": [
+      "totp",
+      "u2f"
+    ],
+    "documentation": "https://confluence.atlassian.com/x/425QLg",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

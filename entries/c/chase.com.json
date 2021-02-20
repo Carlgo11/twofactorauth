@@ -1,0 +1,16 @@
+{
+  "Chase": {
+    "domain": "chase.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

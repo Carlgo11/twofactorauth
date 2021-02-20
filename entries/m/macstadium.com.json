@@ -1,0 +1,12 @@
+{
+  "MacStadium": {
+    "domain": "macstadium.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.macstadium.com/articles/macstadium-two-factor-authentication-guide",
+    "keywords": [
+      "cloud"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "HSBC": {
+    "domain": "hsbc.com",
+    "img": "hsbc.svg",
+    "tfa": [
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.hsbc.co.uk/help/security-centre/secure-key/secure-key-help/",
+    "keywords": [
+      "banking"
+    ]
+  }
+}

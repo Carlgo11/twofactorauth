@@ -1,0 +1,12 @@
+{
+  "Parimatch": {
+    "domain": "parimatch.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://air.pm-511.info/en/faq/authentication/",
+    "keywords": [
+      "betting"
+    ]
+  }
+}

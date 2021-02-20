@@ -1,0 +1,13 @@
+{
+  "MarkMonitor": {
+    "domain": "markmonitor.com",
+    "tfa": [
+      "sms",
+      "custom-software",
+      "custom-hardware"
+    ],
+    "keywords": [
+      "domains"
+    ]
+  }
+}

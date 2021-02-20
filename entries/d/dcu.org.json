@@ -1,0 +1,17 @@
+{
+  "Digital Federal Credit Union": {
+    "domain": "dcu.org",
+    "tfa": [
+      "sms",
+      "call",
+      "email"
+    ],
+    "documentation": "https://www.dcu.org/online-banking/online-banking-enhancements.html",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

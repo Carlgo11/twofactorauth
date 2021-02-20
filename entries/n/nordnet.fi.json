@@ -1,0 +1,16 @@
+{
+  "Nordnet Suomi": {
+    "domain": "nordnet.fi",
+    "img": "nordnet.svg",
+    "contact": {
+      "twitter": "nordnetFI",
+      "language": "fi"
+    },
+    "keywords": [
+      "banking"
+    ],
+    "regions": [
+      "fi"
+    ]
+  }
+}

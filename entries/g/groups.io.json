@@ -1,0 +1,11 @@
+{
+  "Groups.io": {
+    "domain": "groups.io",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "communication"
+    ]
+  }
+}

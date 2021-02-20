@@ -1,0 +1,13 @@
+{
+  "Wealthsimple": {
+    "domain": "wealthsimple.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://help.wealthsimple.com/hc/en-ca/articles/360005175373",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

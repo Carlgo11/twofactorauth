@@ -1,0 +1,14 @@
+{
+  "HYPE": {
+    "domain": "hype.it",
+    "tfa": [
+      "sms"
+    ],
+    "keywords": [
+      "payments"
+    ],
+    "regions": [
+      "it"
+    ]
+  }
+}

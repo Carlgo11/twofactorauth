@@ -1,0 +1,15 @@
+{
+  "UK Companies House": {
+    "domain": "gov.uk",
+    "contact": {
+      "facebook": "CompaniesHouse",
+      "twitter": "CompaniesHouse"
+    },
+    "keywords": [
+      "government"
+    ],
+    "regions": [
+      "gb"
+    ]
+  }
+}

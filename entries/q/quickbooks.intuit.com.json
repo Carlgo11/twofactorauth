@@ -1,0 +1,15 @@
+{
+  "Quickbooks Online": {
+    "domain": "quickbooks.intuit.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://accounts-help.lc.intuit.com/questions/1590157",
+    "notes": "TOTP 2FA only available after enabling SMS or phone 2FA.",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

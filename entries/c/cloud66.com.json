@@ -1,0 +1,14 @@
+{
+  "Cloud 66": {
+    "domain": "cloud66.com",
+    "tfa": [
+      "u2f",
+      "totp"
+    ],
+    "documentation": "https://blog.cloud66.com/two-factor-authentication-for-your-accounts/",
+    "keywords": [
+      "developer",
+      "cloud"
+    ]
+  }
+}

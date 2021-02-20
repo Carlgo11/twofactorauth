@@ -1,0 +1,12 @@
+{
+  "Namesco": {
+    "domain": "names.co.uk",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.names.co.uk/support/3011.html",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

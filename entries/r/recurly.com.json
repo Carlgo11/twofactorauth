@@ -1,0 +1,13 @@
+{
+  "Recurly": {
+    "domain": "recurly.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "documentation": "https://docs.recurly.com/docs/two-factor-authentication",
+    "keywords": [
+      "payments"
+    ]
+  }
+}

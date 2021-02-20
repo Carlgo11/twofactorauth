@@ -1,0 +1,14 @@
+{
+  "AOK": {
+    "domain": "aok.de",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://meine.aok.de/landingpage/faq",
+    "keywords": [
+      "insurance",
+      "health",
+      "finance"
+    ]
+  }
+}

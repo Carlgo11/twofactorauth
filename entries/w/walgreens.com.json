@@ -1,0 +1,14 @@
+{
+  "Walgreens": {
+    "domain": "walgreens.com",
+    "contact": {
+      "twitter": "Walgreens"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

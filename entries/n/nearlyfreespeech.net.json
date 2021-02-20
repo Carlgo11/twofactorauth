@@ -1,0 +1,17 @@
+{
+  "NearlyFreeSpeech.NET": {
+    "domain": "nearlyfreespeech.net",
+    "img": "nearlyfreespeech.net.png",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://blog.nearlyfreespeech.net/2014/02/28/price-cuts-more-security-and-recovery-options/",
+    "keywords": [
+      "hosting"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ID.me": {
+    "domain": "id.me",
+    "tfa": [
+      "sms",
+      "call",
+      "totp",
+      "custom-hardware",
+      "u2f"
+    ],
+    "documentation": "https://help.id.me/hc/en-us/categories/360001435974",
+    "keywords": [
+      "identity"
+    ]
+  }
+}

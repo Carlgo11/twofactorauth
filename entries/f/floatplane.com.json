@@ -1,0 +1,11 @@
+{
+  "Floatplane": {
+    "domain": "floatplane.com",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "entertainment"
+    ]
+  }
+}

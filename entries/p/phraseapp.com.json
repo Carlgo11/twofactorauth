@@ -1,0 +1,12 @@
+{
+  "PhraseApp": {
+    "domain": "phraseapp.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://phraseapp.com/blog/posts/multi-factor-how-to-secure-your-account-using-multi-factor/",
+    "keywords": [
+      "other"
+    ]
+  }
+}

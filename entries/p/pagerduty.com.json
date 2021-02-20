@@ -1,0 +1,12 @@
+{
+  "Pagerduty": {
+    "domain": "pagerduty.com",
+    "contact": {
+      "email": "support@pagerduty.com",
+      "twitter": "PagerDutyHelp"
+    },
+    "keywords": [
+      "developer"
+    ]
+  }
+}

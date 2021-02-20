@@ -1,0 +1,11 @@
+{
+  "Internet.bs": {
+    "domain": "internet.bs",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "domains"
+    ]
+  }
+}

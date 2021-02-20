@@ -1,0 +1,12 @@
+{
+  "Plivo": {
+    "domain": "plivo.com",
+    "contact": {
+      "facebook": "Plivo",
+      "twitter": "plivo"
+    },
+    "keywords": [
+      "developer"
+    ]
+  }
+}

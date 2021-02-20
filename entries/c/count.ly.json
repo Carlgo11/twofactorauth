@@ -1,0 +1,12 @@
+{
+  "Countly": {
+    "domain": "count.ly",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://count.ly/plugins/two-factor-authentication",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

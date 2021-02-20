@@ -1,0 +1,12 @@
+{
+  "Poloniex": {
+    "domain": "poloniex.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.poloniex.circle.com/hc/en-us/articles/360025399352",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

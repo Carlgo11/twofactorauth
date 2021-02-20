@@ -1,0 +1,12 @@
+{
+  "eNom": {
+    "domain": "enom.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.enom.com/kb/kb/kb_1687-setup-2-factor.htm",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

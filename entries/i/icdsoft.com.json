@@ -1,0 +1,12 @@
+{
+  "ICDSoft": {
+    "domain": "icdsoft.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://tickets.suresupport.com/faq/article-1700",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

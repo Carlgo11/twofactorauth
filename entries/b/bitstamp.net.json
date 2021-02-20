@@ -1,0 +1,12 @@
+{
+  "Bitstamp": {
+    "domain": "bitstamp.net",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.bitstamp.net/s/documents/bitstamp_2_factor_authentication_guide.pdf",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "TSB Bank": {
+    "domain": "tsb.co.uk",
+    "contact": {
+      "facebook": "TSBbankUK",
+      "twitter": "TSB"
+    },
+    "regions": [
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

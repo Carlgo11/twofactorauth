@@ -1,0 +1,11 @@
+{
+  "GeoTrust": {
+    "domain": "geotrust.com",
+    "tfa": [
+      "email"
+    ],
+    "keywords": [
+      "security"
+    ]
+  }
+}

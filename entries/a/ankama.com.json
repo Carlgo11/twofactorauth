@@ -1,0 +1,13 @@
+{
+  "Ankama": {
+    "domain": "ankama.com",
+    "tfa": [
+      "email",
+      "custom-software"
+    ],
+    "documentation": "https://support.ankama.com/hc/en-us/categories/200093427",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

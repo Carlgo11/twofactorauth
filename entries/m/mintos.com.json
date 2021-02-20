@@ -1,0 +1,12 @@
+{
+  "Mintos": {
+    "domain": "mintos.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.mintos.com/hc/en-us/sections/360000373858",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Wykop": {
+    "domain": "wykop.pl",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "social"
+    ]
+  }
+}

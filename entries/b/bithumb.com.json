@@ -1,0 +1,16 @@
+{
+  "Bithumb": {
+    "domain": "bithumb.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://en.bithumb.com/customer_support/info_guide?seq=510",
+    "keywords": [
+      "cryptocurrencies"
+    ],
+    "regions": [
+      "kr"
+    ]
+  }
+}

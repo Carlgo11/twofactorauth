@@ -1,0 +1,15 @@
+{
+  "Verizon Wireless": {
+    "domain": "verizonwireless.com",
+    "img": "verizon.svg",
+    "contact": {
+      "twitter": "VZWSupport"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

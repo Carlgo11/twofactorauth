@@ -1,0 +1,17 @@
+{
+  "UW Credit Union": {
+    "domain": "uwcu.org",
+    "tfa": [
+      "sms",
+      "call",
+      "custom-software"
+    ],
+    "documentation": "https://www.uwcu.org/OnlineBanking/OnlineSecurity/VerifyU.aspx",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

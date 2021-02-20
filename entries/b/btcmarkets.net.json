@@ -1,0 +1,16 @@
+{
+  "BTC Markets": {
+    "domain": "btcmarkets.net",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.btcmarkets.net/faq#q27",
+    "notes": "A mobile phone number is required to reset two-factor authentication.",
+    "keywords": [
+      "cryptocurrencies"
+    ],
+    "regions": [
+      "au"
+    ]
+  }
+}

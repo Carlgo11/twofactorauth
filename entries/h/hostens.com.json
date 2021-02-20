@@ -1,0 +1,12 @@
+{
+  "Hostens": {
+    "domain": "hostens.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.hostens.com/knowledgebase/how-to-enhance-account-security/",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

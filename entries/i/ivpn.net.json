@@ -1,0 +1,12 @@
+{
+  "IVPN": {
+    "domain": "ivpn.net",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.ivpn.net/knowledgebase/232/Do-you-offer-Two-Factor-Authentication.html",
+    "keywords": [
+      "vpn"
+    ]
+  }
+}

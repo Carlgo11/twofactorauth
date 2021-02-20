@@ -1,0 +1,12 @@
+{
+  "Speedrun.com": {
+    "domain": "speedrun.com",
+    "tfa": [
+      "email"
+    ],
+    "documentation": "https://www.speedrun.com/the_site/thread/g7osi/1",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

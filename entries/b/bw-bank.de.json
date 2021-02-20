@@ -1,0 +1,16 @@
+{
+  "Baden-Württembergische Bank": {
+    "domain": "bw-bank.de",
+    "tfa": [
+      "custom-software",
+      "custom-hardware"
+    ],
+    "documentation": "https://meine.bw-bank.de/articles/am-14-september-tritt-psd2-in-kraft-was-bedeutet-das-fuer-sie",
+    "regions": [
+      "de"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

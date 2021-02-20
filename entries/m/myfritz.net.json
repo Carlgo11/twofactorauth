@@ -1,0 +1,14 @@
+{
+  "MyFRITZ!": {
+    "domain": "myfritz.net",
+    "tfa": [
+      "totp",
+      "custom-hardware",
+      "u2f"
+    ],
+    "documentation": "https://en.avm.de/service/myfritz/faqs/can-the-captcha-image-puzzle-on-myfritznet-be-deactivated/",
+    "keywords": [
+      "remote"
+    ]
+  }
+}

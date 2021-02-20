@@ -1,0 +1,16 @@
+{
+  "Karlsruher Institut für Technologie": {
+    "domain": "kit.edu",
+    "tfa": [
+      "totp",
+      "custom-hardware"
+    ],
+    "documentation": "https://www.scc.kit.edu/dienste/2fa.php",
+    "keywords": [
+      "education"
+    ],
+    "regions": [
+      "de"
+    ]
+  }
+}

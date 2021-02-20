@@ -1,0 +1,16 @@
+{
+  "MyChart": {
+    "domain": "mychart.com",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "documentation": "https://www.mychart.com/Features",
+    "keywords": [
+      "health"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

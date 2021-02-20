@@ -1,0 +1,20 @@
+{
+  "Galaxus": {
+    "domain": "galaxus.ch",
+    "additional-domains": [
+      "galaxus.de"
+    ],
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.galaxus.ch/en/page/6589",
+    "regions": [
+      "ch",
+      "de",
+      "li"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

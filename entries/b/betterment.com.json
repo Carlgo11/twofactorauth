@@ -1,0 +1,14 @@
+{
+  "Betterment": {
+    "domain": "betterment.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://www.betterment.com/resources/understanding-account-security/#3",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

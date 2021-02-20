@@ -1,0 +1,18 @@
+{
+  "Mercado Libre": {
+    "domain": "mercadolibre.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "regions": [
+      "ar",
+      "mx",
+      "co",
+      "br"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

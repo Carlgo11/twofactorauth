@@ -1,0 +1,12 @@
+{
+  "ActiveState": {
+    "domain": "activestate.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://docs.activestate.com/platform/prefs/twofactor.html",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

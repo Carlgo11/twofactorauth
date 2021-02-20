@@ -1,0 +1,14 @@
+{
+  "MathWorks": {
+    "domain": "mathworks.com",
+    "tfa": [
+      "sms",
+      "email",
+      "totp"
+    ],
+    "documentation": "https://www.mathworks.com/mw_account/two_step_verification/frequently-asked-questions.html",
+    "keywords": [
+      "other"
+    ]
+  }
+}

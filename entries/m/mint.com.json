@@ -1,0 +1,14 @@
+{
+  "Mint": {
+    "domain": "mint.com",
+    "tfa": [
+      "sms",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://help.mint.com/Security/908045661",
+    "keywords": [
+      "finance"
+    ]
+  }
+}

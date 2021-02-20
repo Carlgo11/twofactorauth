@@ -1,0 +1,12 @@
+{
+  "Smarkets": {
+    "domain": "smarkets.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://help.smarkets.com/hc/en-gb/articles/115000822171",
+    "keywords": [
+      "betting"
+    ]
+  }
+}

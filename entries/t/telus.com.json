@@ -1,0 +1,15 @@
+{
+  "Telus": {
+    "domain": "telus.com",
+    "contact": {
+      "facebook": "telus",
+      "twitter": "TELUSsupport"
+    },
+    "keywords": [
+      "utilities"
+    ],
+    "regions": [
+      "ca"
+    ]
+  }
+}

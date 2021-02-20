@@ -1,0 +1,14 @@
+{
+  "Discord": {
+    "domain": "discordapp.com",
+    "tfa": [
+      "sms",
+      "email",
+      "totp"
+    ],
+    "documentation": "https://support.discordapp.com/hc/en-us/articles/219576828",
+    "keywords": [
+      "communication"
+    ]
+  }
+}

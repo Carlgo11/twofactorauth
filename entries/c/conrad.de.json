@@ -1,0 +1,51 @@
+{
+  "Conrad": {
+    "domain": "conrad.de",
+    "additional-domains": [
+      "conrad.at",
+      "conrad.be",
+      "conrad.ch",
+      "conrad.com",
+      "conrad.cz",
+      "conradelektronik.dk",
+      "conrad.fr",
+      "conrad.hr",
+      "conrad.hu",
+      "conrad.nl",
+      "conrad.it",
+      "conrad.pl",
+      "conrad.se",
+      "conrad.si",
+      "conrad.sk",
+      "germanelectronics.ro"
+    ],
+    "contact": {
+      "email": "kundenservice@conrad.de",
+      "facebook": "conradelectronic",
+      "twitter": "conradgermany",
+      "language": "de"
+    },
+    "keywords": [
+      "retail"
+    ],
+    "regions": [
+      "at",
+      "be",
+      "ch",
+      "cz",
+      "de",
+      "dk",
+      "fr",
+      "gb",
+      "hr",
+      "hu",
+      "it",
+      "nl",
+      "pl",
+      "ro",
+      "se",
+      "si",
+      "sk"
+    ]
+  }
+}

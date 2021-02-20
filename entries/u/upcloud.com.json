@@ -1,0 +1,13 @@
+{
+  "UpCloud": {
+    "domain": "upcloud.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.upcloud.com/support/two-factor-authentication/",
+    "notes": "SMS is required for password recovery.",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}

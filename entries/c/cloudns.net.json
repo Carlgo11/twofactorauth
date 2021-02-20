@@ -1,0 +1,13 @@
+{
+  "ClouDNS": {
+    "domain": "cloudns.net",
+    "img": "cloudns.net.png",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.cloudns.net/wiki/article/201/",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

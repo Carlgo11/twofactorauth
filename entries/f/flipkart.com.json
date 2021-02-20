@@ -1,0 +1,15 @@
+{
+  "Flipkart": {
+    "domain": "flipkart.com",
+    "contact": {
+      "facebook": "flipkart",
+      "twitter": "flipkartsupport"
+    },
+    "regions": [
+      "in"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

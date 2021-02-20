@@ -1,0 +1,16 @@
+{
+  "Navy Federal Credit Union": {
+    "domain": "navyfederal.org",
+    "tfa": [
+      "email",
+      "custom-software"
+    ],
+    "documentation": "https://nfcucloud.custhelp.com/app/answers/list/c/543",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

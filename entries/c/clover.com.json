@@ -1,0 +1,16 @@
+{
+  "Clover": {
+    "domain": "clover.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.clover.com/help/two-factor-authentication",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "payments",
+      "commerce"
+    ]
+  }
+}

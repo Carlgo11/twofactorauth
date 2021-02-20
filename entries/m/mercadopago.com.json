@@ -1,0 +1,15 @@
+{
+  "Mercado Pago": {
+    "domain": "mercadopago.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "keywords": [
+      "payments"
+    ],
+    "regions": [
+      "ar"
+    ]
+  }
+}

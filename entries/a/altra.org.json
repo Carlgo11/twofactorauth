@@ -1,0 +1,15 @@
+{
+  "Altra Federal Credit Union": {
+    "domain": "altra.org",
+    "tfa": [
+      "sms",
+      "email"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

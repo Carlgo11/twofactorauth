@@ -1,0 +1,13 @@
+{
+  "Bitfinex": {
+    "domain": "bitfinex.com",
+    "tfa": [
+      "totp",
+      "u2f"
+    ],
+    "documentation": "https://support.bitfinex.com/hc/en-us/sections/203192029",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

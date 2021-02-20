@@ -1,0 +1,13 @@
+{
+  "Synology": {
+    "domain": "synology.com",
+    "tfa": [
+      "email",
+      "totp"
+    ],
+    "documentation": "https://originwww.synology.com/en-us/knowledgebase/tutorials/615#t5",
+    "keywords": [
+      "backup"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Mountain America Credit Union": {
+    "domain": "macu.com",
+    "tfa": [
+      "sms",
+      "call",
+      "email"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

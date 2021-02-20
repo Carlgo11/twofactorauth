@@ -1,0 +1,12 @@
+{
+  "SaneBox": {
+    "domain": "sanebox.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.sanebox.com/help/127",
+    "keywords": [
+      "other"
+    ]
+  }
+}

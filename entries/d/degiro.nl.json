@@ -1,0 +1,11 @@
+{
+  "DEGIRO": {
+    "domain": "degiro.nl",
+    "tfa": [
+      "totp"
+    ],
+    "keywords": [
+      "finance"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Hostinger": {
+    "domain": "hostinger.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.hostinger.com/tutorials/cpanel/#How-to-Set-up-Two-Factor-Authentication",
+    "keywords": [
+      "hosting",
+      "domains"
+    ]
+  }
+}

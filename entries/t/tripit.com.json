@@ -1,0 +1,13 @@
+{
+  "TripIt": {
+    "domain": "tripit.com",
+    "contact": {
+      "email": "security@tripit.com",
+      "facebook": "tripitcom",
+      "twitter": "TripIt"
+    },
+    "keywords": [
+      "transport"
+    ]
+  }
+}

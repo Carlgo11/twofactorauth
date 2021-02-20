@@ -1,0 +1,15 @@
+{
+  "Dwolla": {
+    "domain": "dwolla.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.dwolla.com/updates/introducing-two-factor-authentication-for-dwolla/",
+    "keywords": [
+      "payments"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

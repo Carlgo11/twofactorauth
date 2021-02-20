@@ -1,0 +1,12 @@
+{
+  "Finnair": {
+    "domain": "finnair.com",
+    "tfa": [
+      "sms",
+      "custom-software"
+    ],
+    "keywords": [
+      "transport"
+    ]
+  }
+}

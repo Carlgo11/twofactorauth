@@ -1,0 +1,17 @@
+{
+  "TIAA Bank": {
+    "domain": "tiaabank.com",
+    "img": "tiaabank.svg",
+    "tfa": [
+      "sms",
+      "call"
+    ],
+    "documentation": "https://www.tiaabank.com/security?solutions=security-tools",
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

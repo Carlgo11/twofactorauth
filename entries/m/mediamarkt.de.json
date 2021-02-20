@@ -1,0 +1,22 @@
+{
+  "MediaMarkt": {
+    "domain": "mediamarkt.de",
+    "additional-domains": [
+      "mediamarkt.at",
+      "mediamarkt.ch"
+    ],
+    "contact": {
+      "facebook": "mediamarkt",
+      "twitter": "mediamarkt_de",
+      "language": "de"
+    },
+    "regions": [
+      "de",
+      "at",
+      "ch"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

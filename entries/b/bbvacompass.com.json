@@ -1,0 +1,16 @@
+{
+  "BBVA USA": {
+    "domain": "bbvausa.com",
+    "img": "bbva.svg",
+    "contact": {
+      "facebook": "bbvaintheusa",
+      "twitter": "BBVA_USA"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

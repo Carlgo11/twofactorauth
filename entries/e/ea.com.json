@@ -1,0 +1,15 @@
+{
+  "Electronic Arts (Origin)": {
+    "domain": "ea.com",
+    "tfa": [
+      "sms",
+      "email",
+      "call",
+      "totp"
+    ],
+    "documentation": "https://help.ea.com/en-us/help/account/origin-login-verification-information/",
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

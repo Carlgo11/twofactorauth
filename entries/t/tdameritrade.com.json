@@ -1,0 +1,15 @@
+{
+  "TD Ameritrade": {
+    "domain": "tdameritrade.com",
+    "img": "tdbank.svg",
+    "tfa": [
+      "sms"
+    ],
+    "keywords": [
+      "investing"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

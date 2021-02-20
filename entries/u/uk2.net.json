@@ -1,0 +1,13 @@
+{
+  "UK2": {
+    "domain": "uk2.net",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://www.uk2.net/knowledgebase/display/UK2/How+To+Enable+Two-Factor+Authentication",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

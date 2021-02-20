@@ -1,0 +1,17 @@
+{
+  "Halifax": {
+    "domain": "halifax.co.uk",
+    "tfa": [
+      "custom-software",
+      "call",
+      "sms"
+    ],
+    "documentation": "https://www.halifax.co.uk/aboutonline/changes-to-online-banking/",
+    "regions": [
+      "gb"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

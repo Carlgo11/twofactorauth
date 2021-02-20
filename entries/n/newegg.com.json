@@ -1,0 +1,14 @@
+{
+  "Newegg": {
+    "domain": "newegg.com",
+    "tfa": [
+      "sms",
+      "email",
+      "totp"
+    ],
+    "documentation": "https://kb.newegg.com/knowledge-base/2-step-verification/",
+    "keywords": [
+      "retail"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Easybank": {
+    "domain": "easybank.at",
+    "contact": {
+      "facebook": "easybank",
+      "language": "de"
+    },
+    "regions": [
+      "at"
+    ],
+    "keywords": [
+      "banking"
+    ]
+  }
+}

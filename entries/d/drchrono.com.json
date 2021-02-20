@@ -1,0 +1,15 @@
+{
+  "drchrono": {
+    "domain": "drchrono.com",
+    "tfa": [
+      "custom-software"
+    ],
+    "documentation": "https://www.drchrono.com/blog/two-factor-authentication-extra-security-for-your-health-records/",
+    "keywords": [
+      "health"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

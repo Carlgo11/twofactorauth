@@ -1,0 +1,15 @@
+{
+  "Oui.sncf": {
+    "domain": "oui.sncf",
+    "contact": {
+      "facebook": "oui.sncf",
+      "twitter": "ouisncf"
+    },
+    "keywords": [
+      "transport"
+    ],
+    "regions": [
+      "fr"
+    ]
+  }
+}

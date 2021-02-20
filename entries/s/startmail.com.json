@@ -1,0 +1,12 @@
+{
+  "StartMail": {
+    "domain": "startmail.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.startmail.com/hc/en-us/articles/360006682158",
+    "keywords": [
+      "email"
+    ]
+  }
+}

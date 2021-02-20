@@ -1,0 +1,13 @@
+{
+  "Robinhood": {
+    "domain": "robinhood.com",
+    "tfa": [
+      "sms",
+      "totp"
+    ],
+    "documentation": "https://support.robinhood.com/hc/en-us/articles/360001213783",
+    "keywords": [
+      "investing"
+    ]
+  }
+}

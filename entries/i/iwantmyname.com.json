@@ -1,0 +1,12 @@
+{
+  "iWantMyName": {
+    "domain": "iwantmyname.com",
+    "tfa": [
+      "custom-software"
+    ],
+    "documentation": "https://help.iwantmyname.com/hc/en-gb/articles/360014435197",
+    "keywords": [
+      "domains"
+    ]
+  }
+}

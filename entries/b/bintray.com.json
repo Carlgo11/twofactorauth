@@ -1,0 +1,11 @@
+{
+  "Bintray": {
+    "domain": "bintray.com",
+    "contact": {
+      "twitter": "bintray"
+    },
+    "keywords": [
+      "developer"
+    ]
+  }
+}

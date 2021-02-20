@@ -1,0 +1,12 @@
+{
+  "Infobip": {
+    "domain": "infobip.com",
+    "tfa": [
+      "sms"
+    ],
+    "documentation": "https://www.infobip.com/messaging/enterprise/2_factor_authentication/",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

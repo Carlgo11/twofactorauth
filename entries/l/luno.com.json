@@ -1,0 +1,12 @@
+{
+  "Luno": {
+    "domain": "luno.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.luno.com/help/en/articles/1000203420",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

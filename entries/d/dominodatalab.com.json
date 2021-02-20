@@ -1,0 +1,12 @@
+{
+  "Domino Data Lab": {
+    "domain": "dominodatalab.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://support.dominodatalab.com/hc/en-us/articles/115000998406",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

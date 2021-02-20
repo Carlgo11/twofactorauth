@@ -1,0 +1,13 @@
+{
+  "Security Trails": {
+    "domain": "securitytrails.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://changelog.securitytrails.com/release:-june-11-2020-two-factor-authentication-(2fa)-2fuccE",
+    "keywords": [
+      "security",
+      "domains"
+    ]
+  }
+}

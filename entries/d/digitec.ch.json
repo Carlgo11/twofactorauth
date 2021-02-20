@@ -1,0 +1,15 @@
+{
+  "Digitec": {
+    "domain": "digitec.ch",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.digitec.ch/en/page/6589",
+    "keywords": [
+      "retail"
+    ],
+    "regions": [
+      "ch"
+    ]
+  }
+}

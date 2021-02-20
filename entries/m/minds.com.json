@@ -1,0 +1,11 @@
+{
+  "Minds": {
+    "domain": "minds.com",
+    "tfa": [
+      "sms"
+    ],
+    "keywords": [
+      "social"
+    ]
+  }
+}

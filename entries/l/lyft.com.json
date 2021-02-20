@@ -1,0 +1,15 @@
+{
+  "Lyft": {
+    "domain": "lyft.com",
+    "contact": {
+      "facebook": "lyft",
+      "twitter": "AskLyft"
+    },
+    "keywords": [
+      "transport"
+    ],
+    "regions": [
+      "us"
+    ]
+  }
+}

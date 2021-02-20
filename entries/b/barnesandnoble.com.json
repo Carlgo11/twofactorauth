@@ -1,0 +1,15 @@
+{
+  "Barnes & Noble": {
+    "domain": "barnesandnoble.com",
+    "contact": {
+      "facebook": "barnesandnoble",
+      "twitter": "BN_care"
+    },
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

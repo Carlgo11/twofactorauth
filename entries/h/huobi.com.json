@@ -1,0 +1,14 @@
+{
+  "Huobi": {
+    "domain": "huobi.com",
+    "tfa": [
+      "totp",
+      "sms",
+      "email"
+    ],
+    "documentation": "https://huobiglobal.zendesk.com/hc/en-us/sections/360000001971",
+    "keywords": [
+      "cryptocurrencies"
+    ]
+  }
+}

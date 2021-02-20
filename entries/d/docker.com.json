@@ -1,0 +1,12 @@
+{
+  "Docker": {
+    "domain": "docker.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.docker.com/blog/designing-docker-hub-2fa/",
+    "keywords": [
+      "developer"
+    ]
+  }
+}

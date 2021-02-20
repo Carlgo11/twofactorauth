@@ -1,0 +1,14 @@
+{
+  "Home Depot": {
+    "domain": "homedepot.com",
+    "tfa": [
+      "sms"
+    ],
+    "regions": [
+      "us"
+    ],
+    "keywords": [
+      "retail"
+    ]
+  }
+}

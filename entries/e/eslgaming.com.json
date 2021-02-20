@@ -1,0 +1,12 @@
+{
+  "ESL": {
+    "domain": "eslgaming.com",
+    "tfa": [
+      "totp",
+      "u2f"
+    ],
+    "keywords": [
+      "gaming"
+    ]
+  }
+}

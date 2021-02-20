@@ -1,0 +1,12 @@
+{
+  "Liquid Web": {
+    "domain": "liquidweb.com",
+    "tfa": [
+      "totp"
+    ],
+    "documentation": "https://www.liquidweb.com/kb/how-to-enable-two-factor-authentication-2fa/",
+    "keywords": [
+      "hosting"
+    ]
+  }
+}
