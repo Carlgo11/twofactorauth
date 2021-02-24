@@ -7,4 +7,11 @@ exclude:
   - Gemfile.lock
   - Gemfile
   - .*
+  - entries/
+  - scripts/
+  - tests/
+  - schema.json
+  - service-worker.js
+  - manifest.json
+  - README.md
 theme_color: green

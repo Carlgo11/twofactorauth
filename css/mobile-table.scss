@@ -1,9 +1,10 @@
 ---
 ---
 
-@media screen and (max-width: 992px) {
+
   .category-table {
-    width: 100%;
+    width: 90%;
+    margin: auto 5%; 
 
     .search-table-title {
       text-align: center;
@@ -11,8 +12,8 @@
       margin: 4vh 0 1vh 0;
     }
     .table-success, .table-danger {
-      margin: auto;
-      padding: 18px;
+      margin: 2px auto;
+      padding: 2em;
       border-bottom: 1px groove rgba(34, 36, 38, .14902);
 
       .site-title {
@@ -49,4 +50,4 @@
       }
 
     }
-  }}
+  }

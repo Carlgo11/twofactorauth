@@ -2,8 +2,8 @@
 layout: default
 ---
 <div id="main">
-  <img alt="" id="logo" src="/img/icons/icon.svg">
-  <h2>Two Factor Auth (2FA)</h2>
+  <img alt="" id="logo" src="/img/logo.svg">
+  <h2>2FA Directory</h2>
   <div class="sub header">List of websites and whether or not they support
     <a href="https://en.wikipedia.org/wiki/Two-factor_authentication">2FA</a>.
   </div>
@@ -16,36 +16,133 @@ layout: default
 
 <div class="row justify-content-start category-row">
   {% assign rowcount = 0 %}
-  {% assign tailcount = site.data.sections.size | modulo: 5 %}
-  {% for section in site.data.sections %}
-    {% assign rowend = forloop.index | modulo: 5 %}
-    {% if rowend == 0 or forloop.index == forloop.length %}
+  {% assign keywords = "" | split: "," %}
 
-      {% include category-button.html %}
 
-      {% if forloop.index == forloop.length and tailcount != 0 %}
-        {% for c in (tailcount..4) %}
-          <div class="col"></div>
+  {% for entry in site.data.all %}
+
+  {% for keyword in entry[1].keywords %}
+  {% unless keywords contains keyword %}
+  {% assign keywords = keywords | push: keyword %}
+  {% endunless %}
+  {% endfor %}
+  {% endfor %}
+
+
+  {% assign keywords = keywords | sort %}
+  {% assign entries = site.data.all | sort %}
+  {% assign tailcount = keywords | modulo: 5 %}
+
+  {% for keyword in keywords %}
+  {% assign rowend = forloop.index | modulo: 5 %}
+  {% include category-button.html %}
+
+
+  {% if forloop.index == forloop.length and tailcount != 0 %}
+  <!-- If row consists of less than 5 items -->
+  {% for c in (tailcount..4) %}
+  <div class="col"></div>
+  {% endfor %}
+  {% endif %}
+
+  <div class="collapse category-table searchContainer" id="{{ keyword }}-mobile-table">
+    <h2 class="search-table-title">{{ keyword }}</h2>
+    {% for website in entries %}
+    {% if website[1].keywords contains keyword %}
+    <div class="col {% if website[1].tfa %}table-success{%else%}table-danger{%endif%}">
+
+      <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in
+        website.tfa %} 2fa:{{ item }}{% endfor %}</div>
+      <!-- Title -->
+      <div class="site-title">
+        <a class="site-name" href="https://{{ website[1].domain }}">
+          {% assign letter = website[1].domain | slice: 0 | downcase | append: "/" %}
+          {% if website[1].img %}
+          {% assign image = website[1].img | prepend: letter %}
+          {% else %}
+          {% assign image = website[1].domain | append: ".svg" | prepend: letter %}
+          {% endif %}
+          <img class="logo lazyload{% if website.no_img_border %} no-border{%endif%}" data-src="/img/{{ image }}"
+            src="/img/placeholder.png" alt="">
+          {{ website[0] }}</a>
+        {% if website[1].exception %}
+        <i class="fas fa-exclamation-triangle exception" data-content="{{ website[1].exception }}"></i>
+        {% endif %}
+      </div>
+
+      <!-- tfa options -->
+      {% if website[1].tfa %}
+      <div class="row row-cols-4">
+        {% for tfa in website[1].tfa %}
+
+        <div class="col text-success">
+          <i class="fas fa-check"></i>
+          <b>
+            {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize | replace: "Sms",
+            "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }}</b>
+        </div>
+
         {% endfor %}
+
+      </div>
+
+      {% if website[1].documentation %}
+      <div class="btn doc-btn col-11 col-sm-8 d-flex justify-content-center website-doc">
+        <a href="{{ website[1].documenation }}">
+          <i class="fas fa-book"></i>
+          Read more
+        </a>
+      </div>
       {% endif %}
 
-      {% include mobile-table.html id-param=section.id title-param=section.title %}
-      {% assign offcount = 5 | times: rowcount %}
-      {% for section in site.data.sections limit: 5 offset: offcount %}
-        {% include desktop-table.html id-param=section.id title-param=section.title %}
-      {% endfor %}
+      {% else %}
 
-      {% if forloop.index != forloop.length %}
-        {% assign rowcount = rowcount | plus: '1' %}
-        <div class="w-100 d-none d-md-block"></div>
+      <b class="text-danger">2FA not supported</b>
+      <div class="row justify-content-center">
 
+        {% if website[1].contact.twitter %}
+
+        <div class="col ml-md-auto twitter-button social-button btn" title="Tweet them!"
+          data-twitter="{{ website[1].contact.twitter }}" data-lang="{{ website[1].language }}">
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        {% endif %}
+
+        {% if website[1].contact.facebook %}
+
+        <div class="col facebook-button social-button btn" title="Contact them!"
+          data-facebook="{{ website[1].facebook }}">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+
+        {% endif %}
+
+        {% if website.email_address %}
+
+        <div class="col email-button social-button btn" title="Email them!" data-email="{{ website.email_address }}"
+          data-lang="{{ website.lang }}">
+          <i class="fas fa-envelope"></i>
+        </div>
+
+        {% endif %}
+
+      </div>
       {% endif %}
-    {% else %}
 
-      {% include category-button.html %}
-      {% include mobile-table.html id-param=section.id title-param=section.title %}
-
+    </div>
     {% endif %}
+    {% endfor %}
+
+  </div>
+
+  {% assign offcount = 5 | times: rowcount %}
+
+  {% if forloop.index != forloop.length %}
+  {% assign rowcount = rowcount | plus: '1' %}
+  <div class="w-100 d-none d-md-block"></div>
+
+  {% endif %}
   {% endfor %}
 </div>
 <h2 id="no-results">No results found.</h2>
