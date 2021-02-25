@@ -34,9 +34,10 @@ layout: default
   {% assign tailcount = keywords | modulo: 5 %}
 
   {% for keyword in keywords %}
-  {% assign rowend = forloop.index | modulo: 5 %}
-  {% include category-button.html %}
 
+  {% assign rowend = forloop.index | modulo: 5 %}
+  
+  {% include category-button.html %}
 
   {% if forloop.index == forloop.length and tailcount != 0 %}
   <!-- If row consists of less than 5 items -->
@@ -138,7 +139,7 @@ layout: default
 
   {% assign offcount = 5 | times: rowcount %}
 
-  {% if forloop.index != forloop.length %}
+  {% if rowend == 0 or forloop.index == forloop.length %}
   {% assign rowcount = rowcount | plus: '1' %}
   <div class="w-100 d-none d-md-block"></div>
 
