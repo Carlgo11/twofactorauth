@@ -139,9 +139,11 @@ thead {
     max-height: 33vw;
   }
 
-  .col {
+  /* Why is this here? */
+  /*.col {
     display: block;
   }
+  */
 
   .collapsing {
     -webkit-transition: none;
@@ -157,13 +159,9 @@ thead {
   /* Site name and logo */
   .logo {
     //border-radius: 50%;
-    height: 64px;
-    width: 64px;
+    height: 32px;
+    width: 32px;
     margin-right: .8em;
-
-    &.no-border {
-      border-radius: 0 !important;
-    }
   }
 
   h5:first-child {

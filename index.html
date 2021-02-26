@@ -36,7 +36,7 @@ layout: default
   {% for keyword in keywords %}
 
   {% assign rowend = forloop.index | modulo: 5 %}
-  
+
   {% include category-button.html %}
 
   {% if forloop.index == forloop.length and tailcount != 0 %}
@@ -50,12 +50,12 @@ layout: default
     <h2 class="search-table-title">{{ keyword }}</h2>
     {% for website in entries %}
     {% if website[1].keywords contains keyword %}
-    <div class="col {% if website[1].tfa %}table-success{%else%}table-danger{%endif%}">
+    <div class="col entry {% if website[1].tfa %}table-success{%else%}table-danger{%endif%} row">
 
       <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in
         website.tfa %} 2fa:{{ item }}{% endfor %}</div>
       <!-- Title -->
-      <div class="site-title">
+      <div class="site-title col">
         <a class="site-name" href="https://{{ website[1].domain }}">
           {% assign letter = website[1].domain | slice: 0 | downcase | append: "/" %}
           {% if website[1].img %}
@@ -73,13 +73,14 @@ layout: default
 
       <!-- tfa options -->
       {% if website[1].tfa %}
-      <div class="row row-cols-4">
+      <div class="row row-cols-4 col">
         {% for tfa in website[1].tfa %}
 
         <div class="col text-success">
           <i class="fas fa-check"></i>
           <b>
-            {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize | replace: "Sms",
+            {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize |
+            replace: "Sms",
             "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }}</b>
         </div>
 
@@ -97,37 +98,39 @@ layout: default
       {% endif %}
 
       {% else %}
+      <div class="col">
+        <!-- TODO: Replace float -->
+        <b class="text-danger" style="width: max-content; float: left">2FA not supported</b>
+        <div class="row justify-content-center">
 
-      <b class="text-danger">2FA not supported</b>
-      <div class="row justify-content-center">
+          {% if website[1].contact.twitter %}
 
-        {% if website[1].contact.twitter %}
+          <div class="ml-md-auto twitter-button social-button btn" title="Tweet them!"
+            data-twitter="{{ website[1].contact.twitter }}" data-lang="{{ website[1].language }}">
+            <i class="fab fa-twitter"></i>
+          </div>
 
-        <div class="col ml-md-auto twitter-button social-button btn" title="Tweet them!"
-          data-twitter="{{ website[1].contact.twitter }}" data-lang="{{ website[1].language }}">
-          <i class="fab fa-twitter"></i>
+          {% endif %}
+
+          {% if website[1].contact.facebook %}
+
+          <div class="facebook-button social-button btn" title="Contact them!"
+            data-facebook="{{ website[1].facebook }}">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+
+          {% endif %}
+
+          {% if website.email_address %}
+
+          <div class="email-button social-button btn" title="Email them!" data-email="{{ website.email_address }}"
+            data-lang="{{ website.lang }}">
+            <i class="fas fa-envelope"></i>
+          </div>
+
+          {% endif %}
+
         </div>
-
-        {% endif %}
-
-        {% if website[1].contact.facebook %}
-
-        <div class="col facebook-button social-button btn" title="Contact them!"
-          data-facebook="{{ website[1].facebook }}">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-
-        {% endif %}
-
-        {% if website.email_address %}
-
-        <div class="col email-button social-button btn" title="Email them!" data-email="{{ website.email_address }}"
-          data-lang="{{ website.lang }}">
-          <i class="fas fa-envelope"></i>
-        </div>
-
-        {% endif %}
-
       </div>
       {% endif %}
 

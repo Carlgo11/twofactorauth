@@ -13,16 +13,36 @@
     }
     .table-success, .table-danger {
       margin: 2px auto;
-      padding: 2em;
+      padding: 1em;
       border-bottom: 1px groove rgba(34, 36, 38, .14902);
+      height: 64px;
+
+      &.open {
+        padding: 2em;
+        height: max-content;
+        .site-title{
+          width: 100%;
+          max-width: 100%;
+          line-height: 53px;
+          margin-bottom: 2em;
+          .logo {
+              height: 64px;
+              width: 64px;
+          }
+        }
+        .open {
+          display: flex !important;
+        }
+
+      }
 
       .site-title {
         font-size: 18px;
-        line-height: 53px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
         color: #3596ff;
+        max-width: 20%;
 
         .fa-exclamation-triangle {
           float: right;
@@ -32,6 +52,7 @@
       .website-doc {
         background-color: #009fda;
         margin: 0 auto;
+        display: none !important;
 
         a {
           font-family: Spartan;

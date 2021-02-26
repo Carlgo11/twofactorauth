@@ -17,6 +17,16 @@ $(document).ready(function () {
   }
 });
 
+$('.entry').click(function () {
+  if ($(this).hasClass('open')) {
+    $(this).removeClass('open');
+    $(this).children('.site-title').removeClass('col-12');
+  } else {
+    $(this).addClass('open');
+    $(this).children('.site-title').addClass('col-12');
+  }
+});
+
 // On category click
 $('.cat').click(function () {
   let query = window.location.hash;
@@ -45,10 +55,10 @@ function showCategory(category) {
 
 let resizeObserver = new ResizeObserver(() => {
   // Fix the footer to bottom of viewport if body is less than viewport
-  if($('body').height() < $(window).height()){
-    $('.footer').css({position: 'absolute'});
-  }else{
-    $('.footer').css({position: 'static'});
+  if ($('body').height() < $(window).height()) {
+    $('.footer').css({ position: 'absolute' });
+  } else {
+    $('.footer').css({ position: 'static' });
   }
 });
 
