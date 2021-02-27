@@ -1,19 +1,24 @@
 ---
 layout: default
 ---
+<!-- Website name and logo -->
 <div id="main">
-  <img alt="" id="logo" src="/img/logo.svg">
+  <img alt="" id="logo" src="/img/icons/logo.svg">
   <h2>2FA Directory</h2>
   <div class="sub header">List of websites and whether or not they support
     <a href="https://en.wikipedia.org/wiki/Two-factor_authentication">2FA</a>.
   </div>
 </div>
+<!-- /Website name and logo -->
 
+<!-- Search form -->
 <div class="col-11 col-md-8 col-lg-6" id="outerSearchBox">
   <i class="fas fa-search fa-2x" id="searchIcon"></i>
   <input aria-label="search" id="innerSearchBox" type="search">
 </div>
+<!-- /Search form -->
 
+<!-- Categories list -->
 <div class="row justify-content-start category-row">
   {% assign rowcount = 0 %}
   {% assign keywords = "" | split: "," %}
@@ -46,9 +51,14 @@ layout: default
   {% endfor %}
   {% endif %}
 
+  <!-- Category table/list -->
   <div class="collapse category-table searchContainer" id="{{ keyword }}-mobile-table">
+
     <h2 class="search-table-title">{{ keyword }}</h2>
+
     {% for website in entries %}
+
+    <!-- Website/Entry column -->
     {% if website[1].keywords contains keyword %}
     <div class="col entry {% if website[1].tfa %}table-success{%else%}table-danger{%endif%} row">
 
@@ -81,13 +91,15 @@ layout: default
           <b>
             {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize |
             replace: "Sms",
-            "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }}</b>
+            "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }}
+          </b>
         </div>
 
         {% endfor %}
-
       </div>
+      <!-- / tfa options -->
 
+      <!-- Documentation button -->
       {% if website[1].documentation %}
       <div class="btn doc-btn col-11 col-sm-8 d-flex justify-content-center website-doc">
         <a href="{{ website[1].documenation }}">
@@ -96,57 +108,57 @@ layout: default
         </a>
       </div>
       {% endif %}
+      <!-- /Documentatino button -->
 
       {% else %}
       <div class="col">
         <!-- TODO: Replace float -->
         <b class="text-danger" style="width: max-content; float: left">2FA not supported</b>
-        <div class="row justify-content-center">
 
-          {% if website[1].contact.twitter %}
+        <!-- Social media buttons -->
+        
+        <!-- /Social media buttons-->
 
-          <div class="ml-md-auto twitter-button social-button btn" title="Tweet them!"
-            data-twitter="{{ website[1].contact.twitter }}" data-lang="{{ website[1].language }}">
-            <i class="fab fa-twitter"></i>
-          </div>
-
-          {% endif %}
-
-          {% if website[1].contact.facebook %}
-
-          <div class="facebook-button social-button btn" title="Contact them!"
-            data-facebook="{{ website[1].facebook }}">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-
-          {% endif %}
-
-          {% if website.email_address %}
-
-          <div class="email-button social-button btn" title="Email them!" data-email="{{ website.email_address }}"
-            data-lang="{{ website.lang }}">
-            <i class="fas fa-envelope"></i>
-          </div>
-
-          {% endif %}
-
-        </div>
       </div>
       {% endif %}
 
+      
+      {% assign rank = 0 %}
+      {% if website[1].tfa %}
+      {% if website[1].tfa contains 'u2f' %}{% assign rank = rank | plus: 25 %}{% endif %}
+      {% if website[1].tfa contains 'totp' %}{% assign rank = rank | plus: 25 %}{% endif %}
+      {% if website[1].tfa contains 'custom-software' %}{% assign rank = rank | plus: 10 %}{% endif %}
+      {% if website[1].tfa contains 'custom-hardware' %}{% assign rank = rank | plus: 10 %}{% endif %}
+      {% if website[1].tfa contains 'phone' %}{% assign rank = rank | minus: 5 %}{% endif %}
+      {% if website[1].tfa contains 'sms' %}{% assign rank = rank | minus: 10 %}{% endif %}
+      {% if website[1].tfa contains 'email' %}{% assign rank = rank | minus: 5 %}{% endif %}
+      {% endif %}
+      {% assign color = '#f95454' %}
+      {% if rank >= 50 %}{% assign rank = 'A' %}{% assign color = '#7de37d' %}{% elsif rank >= 35 %}{% assign rank = 'B' %}{% assign color = '#b3f760' %}{% elsif rank >= 10 %}{% assign rank = 'C' %}{% assign color = '#ff7'%}{% elsif rank > 0 %}{% assign rank = 'D' %}{% assign color = '#ffc356' %}{% else %}{% assign rank = 'F' %}{% endif %}
+      <!-- Ranking -->
+      
+      <div class="col-1">
+        <div class="rank {{ rank }}" style="border: 3px solid #222; padding: 5px; color: #111; background: {{ color }}; font-weight: bold; border-radius: 5px;margin-left: 90%;width: max-content;">{{ rank }}</div>
+      </div>
+      <!-- /Ranking -->
+      
+
     </div>
     {% endif %}
-    {% endfor %}
+    <!-- /Website/Entry column -->
 
+    {% endfor %}
   </div>
+  <!-- /Category table/list -->
 
   {% assign offcount = 5 | times: rowcount %}
 
+  <!-- Center category buttons on rows with <5 categories -->
   {% if rowend == 0 or forloop.index == forloop.length %}
   {% assign rowcount = rowcount | plus: '1' %}
   <div class="w-100 d-none d-md-block"></div>
-
   {% endif %}
   {% endfor %}
 </div>
+
 <h2 id="no-results">No results found.</h2>
