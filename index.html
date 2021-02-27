@@ -132,9 +132,13 @@ layout: default
       {% if website[1].tfa contains 'phone' %}{% assign rank = rank | minus: 5 %}{% endif %}
       {% if website[1].tfa contains 'sms' %}{% assign rank = rank | minus: 10 %}{% endif %}
       {% if website[1].tfa contains 'email' %}{% assign rank = rank | minus: 5 %}{% endif %}
-      {% endif %}
+
+      {% if rank >= 50 %}{% assign rank = 'A' %}{% assign color = '#7de37d' %}{% elsif rank >= 35 %}{% assign rank = 'B' %}{% assign color = '#b3f760' %}{% elsif rank >= 10 %}{% assign rank = 'C' %}{% assign color = '#ff7'%}{% elsif rank > 0 %}{% assign rank = 'D' %}{% assign color = '#ffc356' %}{% else %}{% assign rank = 'E' %}{% assign color = '#ff9759' %}{% endif %}
+
+      {% else %}
       {% assign color = '#f95454' %}
-      {% if rank >= 50 %}{% assign rank = 'A' %}{% assign color = '#7de37d' %}{% elsif rank >= 35 %}{% assign rank = 'B' %}{% assign color = '#b3f760' %}{% elsif rank >= 10 %}{% assign rank = 'C' %}{% assign color = '#ff7'%}{% elsif rank > 0 %}{% assign rank = 'D' %}{% assign color = '#ffc356' %}{% else %}{% assign rank = 'F' %}{% endif %}
+      {% assign rank = 'F' %}
+      {% endif %}
       <!-- Ranking -->
       
       <div class="col-1">
