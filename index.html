@@ -21,18 +21,17 @@ layout: default
 <!-- Categories list -->
 <div class="row justify-content-start category-row">
   {% assign rowcount = 0 %}
-  {% assign keywords = "" | split: "," %}
-
+  {% assign keywords = '' | split: ',' %}
 
   {% for entry in site.data.all %}
+    {% for keyword in entry[1].keywords %}
 
-  {% for keyword in entry[1].keywords %}
-  {% unless keywords contains keyword %}
-  {% assign keywords = keywords | push: keyword %}
-  {% endunless %}
-  {% endfor %}
-  {% endfor %}
+      {% unless keywords contains keyword %}
+        {% assign keywords = keywords | push: keyword %}
+      {% endunless %}
 
+    {% endfor %}
+  {% endfor %}
 
   {% assign keywords = keywords | sort %}
   {% assign entries = site.data.all | sort %}
@@ -40,128 +39,129 @@ layout: default
 
   {% for keyword in keywords %}
 
-  {% assign rowend = forloop.index | modulo: 5 %}
+    {% assign rowend = forloop.index | modulo: 5 %}
+    {% include category-button.html %}
 
-  {% include category-button.html %}
-
-  {% if forloop.index == forloop.length and tailcount != 0 %}
-  <!-- If row consists of less than 5 items -->
-  {% for c in (tailcount..4) %}
-  <div class="col"></div>
-  {% endfor %}
-  {% endif %}
-
-  <!-- Category table/list -->
-  <div class="collapse category-table searchContainer" id="{{ keyword }}-mobile-table">
-
-    <h2 class="search-table-title">{{ keyword }}</h2>
-
-    {% for website in entries %}
-
-    <!-- Website/Entry column -->
-    {% if website[1].keywords contains keyword %}
-    <div class="col entry {% if website[1].tfa %}table-success{%else%}table-danger{%endif%} row">
-
-      <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in
-        website.tfa %} 2fa:{{ item }}{% endfor %}</div>
-      <!-- Title -->
-      <div class="site-title col">
-        <a class="site-name" href="https://{{ website[1].domain }}">
-          {% assign letter = website[1].domain | slice: 0 | downcase | append: "/" %}
-          {% if website[1].img %}
-          {% assign image = website[1].img | prepend: letter %}
-          {% else %}
-          {% assign image = website[1].domain | append: ".svg" | prepend: letter %}
-          {% endif %}
-          <img class="logo lazyload{% if website.no_img_border %} no-border{%endif%}" data-src="/img/{{ image }}"
-            src="/img/placeholder.png" alt="">
-          {{ website[0] }}</a>
-        {% if website[1].exception %}
-        <i class="fas fa-exclamation-triangle exception" data-content="{{ website[1].exception }}"></i>
-        {% endif %}
-      </div>
-
-      <!-- tfa options -->
-      {% if website[1].tfa %}
-      <div class="row row-cols-4 col">
-        {% for tfa in website[1].tfa %}
-
-        <div class="col text-success">
-          <i class="fas fa-check"></i>
-          <b>
-            {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize |
-            replace: "Sms",
-            "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }}
-          </b>
-        </div>
-
-        {% endfor %}
-      </div>
-      <!-- / tfa options -->
-
-      <!-- Documentation button -->
-      {% if website[1].documentation %}
-      <div class="btn doc-btn col-11 col-sm-8 d-flex justify-content-center website-doc">
-        <a href="{{ website[1].documenation }}">
-          <i class="fas fa-book"></i>
-          Read more
-        </a>
-      </div>
-      {% endif %}
-      <!-- /Documentatino button -->
-
-      {% else %}
-      <div class="col">
-        <!-- TODO: Replace float -->
-        <b class="text-danger" style="width: max-content; float: left">2FA not supported</b>
-
-        <!-- Social media buttons -->
-        
-        <!-- /Social media buttons-->
-
-      </div>
-      {% endif %}
-
-      
-      {% assign rank = 0 %}
-      {% if website[1].tfa %}
-      {% if website[1].tfa contains 'u2f' %}{% assign rank = rank | plus: 25 %}{% endif %}
-      {% if website[1].tfa contains 'totp' %}{% assign rank = rank | plus: 25 %}{% endif %}
-      {% if website[1].tfa contains 'custom-software' %}{% assign rank = rank | plus: 10 %}{% endif %}
-      {% if website[1].tfa contains 'custom-hardware' %}{% assign rank = rank | plus: 10 %}{% endif %}
-      {% if website[1].tfa contains 'phone' %}{% assign rank = rank | minus: 5 %}{% endif %}
-      {% if website[1].tfa contains 'sms' %}{% assign rank = rank | minus: 10 %}{% endif %}
-      {% if website[1].tfa contains 'email' %}{% assign rank = rank | minus: 5 %}{% endif %}
-
-      {% if rank >= 50 %}{% assign rank = 'A' %}{% assign color = '#7de37d' %}{% elsif rank >= 35 %}{% assign rank = 'B' %}{% assign color = '#b3f760' %}{% elsif rank >= 10 %}{% assign rank = 'C' %}{% assign color = '#ff7'%}{% elsif rank > 0 %}{% assign rank = 'D' %}{% assign color = '#ffc356' %}{% else %}{% assign rank = 'E' %}{% assign color = '#ff9759' %}{% endif %}
-
-      {% else %}
-      {% assign color = '#f95454' %}
-      {% assign rank = 'F' %}
-      {% endif %}
-      <!-- Ranking -->
-      
-      <div class="col-1">
-        <div class="rank {{ rank }}" style="border: 3px solid #222; padding: 5px; color: #111; background: {{ color }}; font-weight: bold; border-radius: 5px;margin-left: 90%;width: max-content;">{{ rank }}</div>
-      </div>
-      <!-- /Ranking -->
-      
-
-    </div>
+    {% if forloop.index == forloop.length and tailcount != 0 %}
+      <!-- If row consists of less than 5 items -->
+      {% for c in (tailcount..4) %}
+        <div class="col"></div>
+      {% endfor %}
     {% endif %}
-    <!-- /Website/Entry column -->
 
-    {% endfor %}
-  </div>
-  <!-- /Category table/list -->
+    <!-- Category table/list -->
+    <div class="collapse category-table searchContainer" id="{{ keyword }}-mobile-table">
 
-  {% assign offcount = 5 | times: rowcount %}
+      <h2 class="search-table-title">{{ keyword }}</h2>
 
-  <!-- Center category buttons on rows with <5 categories -->
-  {% if rowend == 0 or forloop.index == forloop.length %}
-  {% assign rowcount = rowcount | plus: '1' %}
-  <div class="w-100 d-none d-md-block"></div>
-  {% endif %}
+      {% for website in entries %}
+
+        <!-- Website/Entry column -->
+        {% if website[1].keywords contains keyword %}
+          <div class="col entry {% if website[1].tfa %}table-success{%else%}table-danger{%endif%} row">
+
+            <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in website.tfa %} 2fa:{{ item }}{% endfor %}</div>
+            <!-- Title -->
+            <div class="site-title col">
+              <a class="site-name" href="https://{{ website[1].domain }}">
+                <!-- Image -->
+                {% assign letter = website[1].domain | slice: 0 | downcase | append: "/" %}
+                {% if website[1].img %}
+                  {% assign image = website[1].img | prepend: letter %}
+                {% else %}
+                  {% assign image = website[1].domain | append: ".svg" | prepend: letter %}
+                {% endif %}
+
+                <img class="logo lazyload{% if website.no_img_border %} no-border{%endif%}" data-src="/img/{{ image }}" src="/img/placeholder.png" alt="">
+                {{ website[0] }}
+              </a>
+
+              {% if website[1].exception %}
+                <i class="fas fa-exclamation-triangle exception" data-content="{{ website[1].exception }}"></i>
+              {% endif %}
+
+            </div>
+
+            
+            {% if website[1].tfa %}
+
+              <!-- tfa options -->
+              <div class="row row-cols-4 col">
+                {% for tfa in website[1].tfa %}
+
+                  <div class="col text-success">
+                    <i class="fas fa-check"></i>
+                    <b> {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize | replace: "Sms", "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }} </b>
+                  </div>
+
+                {% endfor %}
+              </div>
+              <!-- / tfa options -->
+
+              <!-- Documentation button -->
+              {% if website[1].documentation %}
+                <div class="btn doc-btn col-11 col-sm-8 d-flex justify-content-center website-doc">
+                  <a href="{{ website[1].documenation }}"><i class="fas fa-book"></i> Read more</a>
+                </div>
+              {% endif %}
+              <!-- /Documentatino button -->
+
+            {% else %}
+              <div class="col">
+
+                <!-- TODO: Replace float -->
+                <b class="text-danger" style="width: max-content; float: left">2FA not supported</b>
+
+                <!-- Social media buttons -->
+                <!-- /Social media buttons-->
+
+              </div>
+            {% endif %}
+
+            <!-- Ranking -->
+            {% assign rank = 0 %}
+            {% if website[1].tfa %}
+
+              {% if website[1].tfa contains 'u2f' %}{% assign rank = rank | plus: 25 %}{% endif %}
+              {% if website[1].tfa contains 'totp' %}{% assign rank = rank | plus: 25 %}{% endif %}
+              {% if website[1].tfa contains 'custom-software' %}{% assign rank = rank | plus: 10 %}{% endif %}
+              {% if website[1].tfa contains 'custom-hardware' %}{% assign rank = rank | plus: 10 %}{% endif %}
+              {% if website[1].tfa contains 'phone' %}{% assign rank = rank | minus: 5 %}{% endif %}
+              {% if website[1].tfa contains 'sms' %}{% assign rank = rank | minus: 10 %}{% endif %}
+              {% if website[1].tfa contains 'email' %}{% assign rank = rank | minus: 5 %}{% endif %}
+
+              {% if rank >= 50 %}{% assign rank = 'A' %}{% assign color = '#7de37d' %}
+              {% elsif rank >= 35 %}{% assign rank = 'B' %}{% assign color = '#b3f760' %}
+              {% elsif rank >= 10 %}{% assign rank = 'C' %}{% assign color = '#ff7'%}
+              {% elsif rank > 0 %}{% assign rank = 'D' %}{% assign color = '#ffc356' %}
+              {% else %}{% assign rank = 'E' %}{% assign color = '#ff9759' %}
+              {% endif %}
+
+            {% else %}
+              {% assign color = '#f95454' %}
+              {% assign rank = 'F' %}
+            {% endif %}
+
+            <div class="col-1">
+              <div class="rank {{ rank }}" style="border: 3px solid #222; padding: 5px; color: #111; background: {{ color }}; font-weight: bold; border-radius: 5px;margin-left: 90%;width: max-content;">{{ rank }}</div>
+            </div>
+            <!-- /Ranking -->
+
+          </div>
+        {% endif %}
+        <!-- /Website/Entry column -->
+
+      {% endfor %}
+    </div>
+    <!-- /Category table/list -->
+
+    {% assign offcount = 5 | times: rowcount %}
+
+    <!-- Center category buttons on rows with <5 categories -->
+    {% if rowend == 0 or forloop.index == forloop.length %}
+      {% assign rowcount = rowcount | plus: '1' %}
+      <div class="w-100 d-none d-md-block"></div>
+    {% endif %}
   {% endfor %}
 </div>
 
