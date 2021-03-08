@@ -1,16 +1,17 @@
 ---
 ---
 
-
   .category-table {
-    width: 90%;
-    margin: auto 5%; 
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 
     .search-table-title {
       text-align: center;
       display: none;
       margin: 4vh 0 1vh 0;
     }
+
     .table-success, .table-danger {
       margin: 2px auto;
       padding: 1em;

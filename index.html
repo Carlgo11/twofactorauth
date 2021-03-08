@@ -19,48 +19,33 @@ layout: default
 <!-- /Search form -->
 
 <!-- Categories list -->
-<div class="row justify-content-start category-row">
-  {% assign rowcount = 0 %}
-  {% assign keywords = '' | split: ',' %}
-
-  {% for entry in site.data.all %}
-    {% for keyword in entry[1].keywords %}
-
-      {% unless keywords contains keyword %}
-        {% assign keywords = keywords | push: keyword %}
-      {% endunless %}
-
-    {% endfor %}
-  {% endfor %}
-
-  {% assign keywords = keywords | sort %}
-  {% assign entries = site.data.all | sort %}
-  {% assign tailcount = keywords | modulo: 5 %}
-
+<div class="row row-cols-1 row-cols-md-5 justify-content-start category-row">
+  {% assign keywords = site.data.categories %}
+  {% assign entries = site.data.all %}
+  {% assign keywords_length  = keywords | size %}
   {% for keyword in keywords %}
 
-    {% assign rowend = forloop.index | modulo: 5 %}
-    {% include category-button.html %}
-
-    {% if forloop.index == forloop.length and tailcount != 0 %}
-      <!-- If row consists of less than 5 items -->
-      {% for c in (tailcount..4) %}
-        <div class="col"></div>
+    {% assign md = forloop.index | modulo: 5 %}
+    {% if md == 0 %}
+      {% for _keyword in keywords limit: 5 offset: forloop.index %}
+      {% include category-button.html category-param=_keyword viewport="desktop" %}
       {% endfor %}
     {% endif %}
-
+    {% include category-button.html category-param=keyword viewport="mobile" %}
+    
     <!-- Category table/list -->
-    <div class="collapse category-table searchContainer" id="{{ keyword }}-mobile-table">
+    <div class="collapse col-12 category-table searchContainer" id="{{ keyword[0] }}-mobile-table">
 
-      <h2 class="search-table-title">{{ keyword }}</h2>
+      <h2 class="search-table-title">{{ keyword[1].title }}</h2>
 
       {% for website in entries %}
 
         <!-- Website/Entry column -->
-        {% if website[1].keywords contains keyword %}
+        {% if website[1].keywords contains keyword[0] %}
           <div class="col entry {% if website[1].tfa %}table-success{%else%}table-danger{%endif%} row">
 
-            <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in website.tfa %} 2fa:{{ item }}{% endfor %}</div>
+            <div class="searchWords" style="display: none;">{{ website[0] }}&nbsp;{{ website[1].domain }}&nbsp;{% for item in website[1].tfa %} 2fa:{{ item }}{% endfor %}</div>
+
             <!-- Title -->
             <div class="site-title col">
               <a class="site-name" href="https://{{ website[1].domain }}">
@@ -72,7 +57,7 @@ layout: default
                   {% assign image = website[1].domain | append: ".svg" | prepend: letter %}
                 {% endif %}
 
-                <img class="logo lazyload{% if website.no_img_border %} no-border{%endif%}" data-src="/img/{{ image }}" src="/img/placeholder.png" alt="">
+                <img class="logo lazyload" data-src="/img/{{ image }}" alt="">
                 {{ website[0] }}
               </a>
 
@@ -82,15 +67,13 @@ layout: default
 
             </div>
 
-            
             {% if website[1].tfa %}
 
               <!-- tfa options -->
-              <div class="row row-cols-4 col">
+              <div class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 col">
                 {% for tfa in website[1].tfa %}
 
                   <div class="col text-success">
-                    <i class="fas fa-check"></i>
                     <b> {{ tfa | replace: "custom-software", "software" | replace: "custom-hardware", "hardware" | capitalize | replace: "Sms", "SMS" | replace: "Totp", "TOTP" | replace: "U2f", "U2F" }} </b>
                   </div>
 
@@ -118,6 +101,7 @@ layout: default
               </div>
             {% endif %}
 
+            {% if site.ranking %}
             <!-- Ranking -->
             {% assign rank = 0 %}
             {% if website[1].tfa %}
@@ -138,14 +122,17 @@ layout: default
               {% endif %}
 
             {% else %}
+
               {% assign color = '#f95454' %}
               {% assign rank = 'F' %}
+
             {% endif %}
 
             <div class="col-1">
               <div class="rank {{ rank }}" style="border: 3px solid #222; padding: 5px; color: #111; background: {{ color }}; font-weight: bold; border-radius: 5px;margin-left: 90%;width: max-content;">{{ rank }}</div>
             </div>
             <!-- /Ranking -->
+            {% endif %}
 
           </div>
         {% endif %}
@@ -154,15 +141,8 @@ layout: default
       {% endfor %}
     </div>
     <!-- /Category table/list -->
-
-    {% assign offcount = 5 | times: rowcount %}
-
-    <!-- Center category buttons on rows with <5 categories -->
-    {% if rowend == 0 or forloop.index == forloop.length %}
-      {% assign rowcount = rowcount | plus: '1' %}
-      <div class="w-100 d-none d-md-block"></div>
-    {% endif %}
   {% endfor %}
+
 </div>
 
 <h2 id="no-results">No results found.</h2>

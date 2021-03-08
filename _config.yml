@@ -15,3 +15,4 @@ exclude:
   - manifest.json
   - README.md
 theme_color: green
+ranking: false

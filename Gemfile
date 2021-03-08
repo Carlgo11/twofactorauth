@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem "github-pages"
+
 gem 'json_schemer'
 gem 'rubocop'
