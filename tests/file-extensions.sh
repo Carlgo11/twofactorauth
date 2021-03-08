@@ -15,9 +15,9 @@ function checkExt()
     fi
 }
 
-[ -e api ] && checkExt api json
+[ -e api ] && checkExt api json sig
 
-checkExt css css
+checkExt css scss
 checkExt entries json
 checkExt img svg png
 checkExt js js
