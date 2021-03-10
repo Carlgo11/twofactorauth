@@ -28,7 +28,11 @@ layout: default
     {% assign md = forloop.index | modulo: 5 %}
     {% if md == 0 %}
       {% for _keyword in keywords limit: 5 offset: forloop.index %}
-      {% include category-button.html category-param=_keyword viewport="desktop" %}
+        {% include category-button.html category-param=_keyword viewport="desktop" %}
+      {% endfor %}
+    {% elsif forloop.index == 1 %}
+      {% for _keyword in keywords limit: 5 %}
+        {% include category-button.html category-param=_keyword viewport="desktop" %}
       {% endfor %}
     {% endif %}
     {% include category-button.html category-param=keyword viewport="mobile" %}
@@ -70,7 +74,7 @@ layout: default
             {% if website[1].tfa %}
 
               <!-- tfa options -->
-              <div class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 col">
+              <div class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 col tfa-list">
                 {% for tfa in website[1].tfa %}
 
                   <div class="col text-success">
@@ -81,6 +85,9 @@ layout: default
               </div>
               <!-- / tfa options -->
 
+              <!-- Line break -->
+              <div class="w-100"></div>
+
               <!-- Documentation button -->
               {% if website[1].documentation %}
                 <div class="btn doc-btn col-11 col-sm-8 d-flex justify-content-center website-doc">
@@ -90,15 +97,22 @@ layout: default
               <!-- /Documentatino button -->
 
             {% else %}
-              <div class="col">
-
+              <div class="col tfa-list">
+                <div class="col-12">
                 <!-- TODO: Replace float -->
                 <b class="text-danger" style="width: max-content; float: left">2FA not supported</b>
-
-                <!-- Social media buttons -->
-                <!-- /Social media buttons-->
-
               </div>
+              {% if website[1].contact %}
+                <div class="social-button-group col-12">
+                <!-- Social media buttons -->
+                {% if website[1].contact.twitter %}<div class="btn social-button twitter-button" ><i class="fab fa-twitter"></i> Twitter</div>{% endif %}
+                {% if website[1].contact.facebook %}<div class="btn social-button facebook-button" ><i class="fab fa-facebook-f"></i> Facebook</div>{% endif %}
+                {% if website[1].contact.email %}<div class="btn social-button email-button" ><i class="fas fa-envelope"></i> Email</div>{% endif %}
+                <!-- /Social media buttons-->
+                </div>
+                {% endif %}
+              </div>
+              
             {% endif %}
 
             {% if site.ranking %}
