@@ -25,16 +25,23 @@ layout: default
   {% assign keywords_length  = keywords | size %}
   {% for keyword in keywords %}
 
-    {% assign md = forloop.index | modulo: 5 %}
-    {% if md == 0 %}
-      {% for _keyword in keywords limit: 5 offset: forloop.index %}
+    {% assign md = forloop.index | modulo: 6 %}
+
+    <!-- List previous 5 categories (desktop button) -->
+    {% if md == 0 or forloop.index == 1 %}
+      {% if md == 0 %}
+        {% assign _offset = forloop.index | minus: 1 %}
+      {% else %}
+        {% assign _offset = 0 %} 
+      {% endif %}
+
+      {% for _keyword in keywords limit: 5 offset: _offset %}
         {% include category-button.html category-param=_keyword viewport="desktop" %}
       {% endfor %}
-    {% elsif forloop.index == 1 %}
-      {% for _keyword in keywords limit: 5 %}
-        {% include category-button.html category-param=_keyword viewport="desktop" %}
-      {% endfor %}
+
     {% endif %}
+
+    <!-- Display mobile category button -->
     {% include category-button.html category-param=keyword viewport="mobile" %}
     
     <!-- Category table/list -->
