@@ -1,15 +1,19 @@
 ---
 ---
 
+.social-button-group {
+  display: none;
+}
+
 @media screen and (min-width: 993px) {
-  .social-button-group {
+  .open .social-button-group {
     display: inline-block;
-    margin-left: 0.5vw;
+    margin-top: 2em;
+    margin-left: -6px
   }
 }
 
 .social-button {
-  height: 100%;
   width: 140px;
   color: white;
   margin: 0 6px;

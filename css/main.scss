@@ -97,6 +97,7 @@ thead {
       justify-content: center;
       align-self: flex-start !important;
       -ms-flex-item-align: start !important;
+      padding: 1em;
     .cat {
         box-sizing: border-box;
         z-index: 1000;
@@ -128,6 +129,7 @@ thead {
           font-weight: 400;
           font-size: 22px;
           letter-spacing: 0.528px;
+          
         }
 
        .category-icon {
