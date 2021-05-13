@@ -1,0 +1,13 @@
+name: Close invalid PRs
+on:
+  pull_request_target:
+    types: [opened]
+    branches-ignore: master
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: superbrothers/close-pull-request@v3.0.0
+        with:
+          comment: "Only PRs to the master branch are allowed."
