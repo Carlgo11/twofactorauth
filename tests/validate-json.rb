@@ -14,7 +14,7 @@ def error(file, msg)
 end
 
 # rubocop:disable Metrics/BlockLength
-Parallel.each(Dir.glob('entries/*/*.json')) do |file|
+Dir.glob('entries/*/*.json').each do |file|
   begin
     JSON.parse(File.read(file))
   rescue JSON::ParserError => e
@@ -26,16 +26,21 @@ Parallel.each(Dir.glob('entries/*/*.json')) do |file|
 
   unless schema.valid? document
     schema.validate(document).each do |v|
-      puts ''
-      puts "::error file=#{file}:: '#{v['type'].capitalize}' error in #{file}"
-      puts "- tag: #{v['data_pointer'].split('/')[2]}" if v['data_pointer'].split('/').length >= 3
-      puts "  data: #{v['data']}" if v['details'].nil?
-      puts "  data: #{v['details']}" unless v['details'].nil?
-      puts "  expected: #{v['schema']['pattern']}" if v['type'].eql?('pattern')
-      puts "  expected: #{v['schema']['format']}" if v['type'].eql?('format')
-      puts "  expected: #{v['schema']['required']}" if v['type'].eql?('required')
-      puts "  expected: only one of 'tfa' or 'contact'" if v['type'].eql?('oneOf')
-      puts "  expected: 'tfa' to contain '#{v['schema']['contains']['const']}'" if v['type'].eql?('contains')
+      type = v['type']
+      tag = v['data_pointer'].split('/')[2].eql?('contact')
+      a = []
+      a.push()
+      a.push "::error file=#{file}:: '#{v['type'].capitalize}' error in #{file}"
+      a.push "- tag: #{tag}" if v['data_pointer'].split('/').length == 2
+      a.push "  data: #{v['data']}" if v['details'].nil?
+      a.push "  data: #{v['details']}" unless v['details'].nil?
+      a.push "  expected: #{v['schema']['pattern']}" if type.eql?('pattern')
+      a.push "  expected: #{v['schema']['format']}" if type.eql?('format')
+      a.push "  expected: #{v['schema']['required']}" if type.eql?('required')
+      a.push "  expected: only one of 'tfa' or 'contact'" if type.eql?('oneOf')
+      a.push "  expected: 'tfa' to contain '#{v['schema']['contains']['const']}'" if v['type'].eql?('contains')
+      a.push "  expected: either 'email' or 'form'" if type.eql?('not') && tag.eql?('contact')
+      error(file,a.join("%0A"))
     end
     @status = 1
     next
@@ -74,5 +79,4 @@ Parallel.each(Dir.glob('entries/*/*.json')) do |file|
   end
 end
 # rubocop:enable Metrics/BlockLength
-
 exit(@status)

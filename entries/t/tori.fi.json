@@ -1,11 +1,13 @@
 {
   "Tori": {
     "domain": "tori.fi",
+    "contact": {
+      "email": "error@error.com",
+      "form": "https://error.com"
+    },
     "tfa": [
-      "sms",
-      "totp"
+      "sms"
     ],
-    "documentation": "https://tuki.tori.fi/hc/fi/articles/9232925832466",
     "categories": [
       "retail"
     ],
