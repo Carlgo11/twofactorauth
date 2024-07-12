@@ -38,7 +38,7 @@ Object.keys(all)
     // Process regions
     if ("regions" in entry) {
       entry["regions"].forEach((region) => {
-        if (!region.startsWith("-")) {
+        if (region[0] !== "-") {
           if (!regions[region]) regions[region] = { count: 0 };
 
           regions[region]["count"] += 1;
